@@ -66,6 +66,7 @@ bool Recipe::has_ingredient(const std::string &ingredient) const
 
 bool Recipe::has_ingredient(const std::vector<std::string> &search_ingredients) const
 {
+	// check each ingredient to see if we have it
 	for(size_t i = 0; i < search_ingredients.size(); ++i)
 	{
 		if(!this->has_ingredient(search_ingredients[i]))

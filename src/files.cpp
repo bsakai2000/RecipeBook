@@ -84,11 +84,15 @@ std::vector<Recipe> read_recipes(const std::string &file_name)
 
 void write_recipes(const std::string &file_name, const std::vector<Recipe> &recipes)
 {
+	// Create the root array
 	Json::Value recipes_tree(Json::arrayValue);
 	for(size_t i = 0; i < recipes.size(); ++i)
 	{
 		Json::Value recipe(Json::objectValue);
+		// Get the recipe name
 		recipe["name"] = recipes[i].get_name();
+
+		// Get the recipe ingredients
 		Json::Value ingredients_tree(Json::arrayValue);
 		std::vector<Ingredient> ingredients = recipes[i].get_ingredients();
 		for(size_t j = 0; j < ingredients.size(); ++j)
@@ -99,30 +103,39 @@ void write_recipes(const std::string &file_name, const std::vector<Recipe> &reci
 			ingredients_tree.append(ingredient);
 		}
 		recipe["ingredients"] = ingredients_tree;
+		
+		// Get the recipe instructions
 		recipe["instructions"] = Json::Value(Json::arrayValue);
 		std::vector<std::string> instructions = recipes[i].get_instructions();
 		for(size_t j = 0; j < instructions.size(); ++j)
 		{
 			recipe["instructions"].append(instructions[j]);
 		}
+
+		// Get the recipe tags
 		recipe["tags"] = Json::Value(Json::arrayValue);
 		std::vector<std::string> tags = recipes[i].get_tags();
 		for(size_t j = 0; j < tags.size(); ++j)
 		{
 			recipe["tags"].append(tags[j]);
 		}
+
+		// Add this recipe to the JSON tree
 		recipes_tree.append(recipe);
 	}
 
+	// Create our writer 
 	Json::StreamWriterBuilder builder;
 	Json::StreamWriter* writer = builder.newStreamWriter();
 
+	// Write the JSON tree to output_buffer
 	std::ostringstream stream;
 	writer->write(recipes_tree, &stream);
 	std::string stream_str = stream.str();
 	size_t buffer_size = stream_str.size();
 	const char* output_buffer = stream_str.c_str();
 
+	// Write the JSON tree to disk
 	const char* c_file_name = file_name.c_str();
 	FILE* file = fopen(c_file_name, "w");
 	if(!file)
@@ -137,6 +150,7 @@ void write_recipes(const std::string &file_name, const std::vector<Recipe> &reci
 		exit(1);
 	}
 
+	// Clean up
 	fclose(file);
 	delete writer;
 }

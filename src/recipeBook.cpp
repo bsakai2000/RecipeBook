@@ -5,13 +5,16 @@
 #include "recipe.hpp"
 #include "files.hpp"
 
+// The name of the file where recipes are stored
 #ifndef RECIPE_BOOK
 #define RECIPE_BOOK "recipes.json"
 #endif
 
+// Get the list of recipe names that have all of these tags
 std::vector<std::string> search_by_tag(const std::vector<Recipe> &recipes, const std::vector<std::string> &tag)
 {
 	std::vector<std::string> results;
+	// Loop through each recipe and check if it has all the tags
 	for(size_t i = 0; i < recipes.size(); ++i)
 	{
 		if(recipes[i].has_tag(tag))
@@ -22,9 +25,11 @@ std::vector<std::string> search_by_tag(const std::vector<Recipe> &recipes, const
 	return results;
 }
 
+// Get the list of recipe names that have all of these ingredients
 std::vector<std::string> search_by_ingredient(const std::vector<Recipe> &recipes, const std::vector<std::string> &ingredient)
 {
 	std::vector<std::string> results;
+	// Loop through each recipe and check if it has all the ingredients
 	for(size_t i = 0; i < recipes.size(); ++i)
 	{
 		if(recipes[i].has_ingredient(ingredient))
@@ -35,63 +40,88 @@ std::vector<std::string> search_by_ingredient(const std::vector<Recipe> &recipes
 	return results;
 }
 
+// Create a new recipe
 Recipe add_recipe()
 {
+	// Ask for the recipe name
 	printf("Recipe Name:\n");
 	std::string recipe_name;
 	getline(std::cin, recipe_name);
 	
+	// Ask for each ingredient
 	printf("Please input ingredients one at a time\n");
 	printf("Leave name field empty to move on\n");
 	std::vector<Ingredient> ingredients;
 	while(1)
 	{
+		// Get the ingredient name
 		printf("Ingredient name:\n");
 		std::string ingredient_name;
 		getline(std::cin, ingredient_name);
+
+		// Stop collecting ingredients when name is empty
 		if(ingredient_name == "")
 		{
 			break;
 		}
+
+		// Get the ingredient quantity
 		printf("Ingredient quantity:\n");
 		std::string ingredient_quantity;
 		getline(std::cin, ingredient_quantity);
+
+		// Add this ingredient to our list
 		ingredients.push_back(Ingredient(ingredient_name, ingredient_quantity));
 	}
 	
-	printf("Please input ingredients one at a time\n");
+	// Ask for instructions in order
+	printf("Please input instructions one at a time\n");
 	printf("Leave field empty to move on\n");
 	std::vector<std::string> steps;
 	int i = 0;
 	while(++i)
 	{
+		// Get the step
 		printf("Step %d:\n", i);
 		std::string step;
 		getline(std::cin, step);
+
+		// If the step is empty, stop collecting the steps
 		if(step == "")
 		{
 			break;
 		}
+
+		// Add this step to our list
 		steps.push_back(step);
 	}
 
+	// Ask for tags
 	printf("Please input tags one at a time\n");
 	printf("Leave field empty to finish\n");
 	std::vector<std::string> tags;
 	while(1)
 	{
+		// Get the tag
 		printf("Tag:\n");
 		std::string tag;
 		getline(std::cin, tag);
+
+		// If the tag is empty, stop collecting tags
 		if(tag == "")
 		{
 			break;
 		}
+
+		// Add this tag to our list
 		tags.push_back(tag);
 	}
+
+	// Create a recipe with the required qualities
 	return Recipe(recipe_name, ingredients, tags, steps);
 }
 
+// Print usage information
 void usage(char* filename)
 {
 	fprintf(stderr, "Usage:\n");
@@ -103,27 +133,32 @@ void usage(char* filename)
 
 int main(int argc, char* argv[])
 {
-
+	// We need at least 2 arguments
 	if(argc < 3)
 	{
 		usage(argv[0]);
 		return 1;
 	}
 
+	// Collect arguments in args
 	std::vector<std::string> args;
 	args.assign(argv + 1, argv + argc);
 
+	// Put all the recipes in our vector
 	std::vector<Recipe> recipes = read_recipes(RECIPE_BOOK);
 	if(args[0] == "search")
 	{
-		if(argc < 4)
+		// We need a search term and method
+		if(args.size() < 3)
 		{
 			usage(argv[0]);
 			return 1;
 		}
 
+		// Collect search terms
 		std::vector<std::string> search_terms(args.begin() + 2, args.end());
 		std::vector<std::string> search_results;
+		// Get the results in search_results
 		if(args[1] == "tag")
 		{
 			search_results = search_by_tag(recipes, search_terms);
@@ -138,12 +173,14 @@ int main(int argc, char* argv[])
 			return 1;
 		}
 
+		// If we don't have any results, give up
 		if(search_results.size() == 0)
 		{
 			fprintf(stderr, "No results found\n");
 			return 1;
 		}
 
+		// If we have results, print them
 		for(size_t i = 0; i < search_results.size(); ++i)
 		{
 			printf("%s\n", search_results[i].c_str());
@@ -152,6 +189,7 @@ int main(int argc, char* argv[])
 	}
 	else if(args[0] == "recipe")
 	{
+		// List all recipe names
 		if(args[1] == "list")
 		{
 			for(size_t i = 0; i < recipes.size(); ++i)
@@ -160,6 +198,7 @@ int main(int argc, char* argv[])
 			}
 			return 0;
 		}
+		// Create a new recipe and write back to disk
 		if(args[1] == "add")
 		{
 			Recipe new_recipe = add_recipe();
@@ -168,12 +207,14 @@ int main(int argc, char* argv[])
 			return 0;
 		}
 
+		// If this is a bad argument list, give up
 		if((args.size() < 3) || (args[1] != "all" && args[1] != "ingredients" && args[1] != "instructions"))
 		{
 			usage(argv[0]);
 			return 1;
 		}
 
+		// Create the recipe name from args
 		std::string recipe_name = "";
 		for(size_t i = 2; i < args.size(); ++i)
 		{
@@ -181,6 +222,7 @@ int main(int argc, char* argv[])
 		}
 		recipe_name.pop_back();
 
+		// Find the recipe named recipe_name
 		Recipe* recipe = NULL;
 		for(size_t i = 0; i < recipes.size(); ++i)
 		{
@@ -191,12 +233,14 @@ int main(int argc, char* argv[])
 			}
 		}
 
+		// If we don't have a recipe with that name, give up
 		if(recipe == NULL)
 		{
 			fprintf(stderr, "No recipe called %s\n", recipe_name.c_str());
 			return 1;
 		}
 
+		// Target "all" requires labelling sections
 		if(args[1] == "all")
 		{
 			printf("Ingredients:\n");
@@ -205,6 +249,7 @@ int main(int argc, char* argv[])
 		if(args[1] == "ingredients" || args[1] == "all")
 		{
 			std::vector<Ingredient> ingredients = recipe->get_ingredients();
+			// Get the maximum size of the quantity
 			int max_size = 0;
 			for(size_t i = 0; i < ingredients.size(); ++i)
 			{
@@ -213,12 +258,14 @@ int main(int argc, char* argv[])
 					max_size = (int) ingredients[i].quantity.size();
 				}
 			}
+			// Print each ingredient
 			for(size_t i = 0; i < ingredients.size(); ++i)
 			{
 				printf("%*s  %s\n", max_size + 2, ingredients[i].quantity.c_str(), ingredients[i].name.c_str());
 			}
 		}
 
+		// Target "all" requires labelling sections
 		if(args[1] == "all")
 		{
 			printf("\nInstructions:\n");
@@ -226,6 +273,7 @@ int main(int argc, char* argv[])
 
 		if(args[1] == "instructions" || args[1] == "all")
 		{
+			// Print each instruction
 			std::vector<std::string> instructions = recipe->get_instructions();
 			for(size_t i = 0; i < instructions.size(); ++i)
 			{
@@ -235,6 +283,7 @@ int main(int argc, char* argv[])
 	}
 	else
 	{
+		// If we got bad arguments, print usage
 		usage(argv[0]);
 		return 1;
 	}
