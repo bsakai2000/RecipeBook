@@ -97,6 +97,7 @@ void usage(char* filename)
 	fprintf(stderr, "Usage:\n");
 	fprintf(stderr, "%s search [tag|ingredient] term1 [term2 ...]\n", filename);
 	fprintf(stderr, "%s recipe list\n", filename);
+	fprintf(stderr, "%s recipe add\n", filename);
 	fprintf(stderr, "%s recipe [ingredients|instructions|all] recipename\n", filename);
 }
 
