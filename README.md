@@ -9,7 +9,7 @@ Usage is as follows:
 ./recipeBook recipe [ingredients|instructions|all] recipename
 
 ```
-The search allows searching by tag or ingredient, so to find all recipes that use chicken one would say `./recipeBook search ingredient Chicken`
+Tags are used to categorize recipes. The search allows searching by tag or ingredient, so to find all recipes that use chicken one would say `./recipeBook search ingredient Chicken`
 
 The JSON recipe book is encoded like
 ```
@@ -58,3 +58,10 @@ Instructions:
   3. Heat oil in a skillet, and sautee coated chicken
   4. Combine chicken and sauce, and add red peppers to taste
 ```
+
+Files:
+ - files.cpp, files.hpp: Utilities for reading and writing our JSON recipe book
+ - ingredient.cpp, ingredient.hpp: The Ingredient class, holding a name and a quantity
+ - recipeBook.cpp: The main that provides a way to interact with our recipe book JSON file
+ - recipe.cpp, recipe.hpp: The Recipe class that represents one recipe as a name, list of ingredients, list of steps, and list of tags
+ - recipes.json: A sample recipe book
