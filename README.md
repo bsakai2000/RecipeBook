@@ -36,3 +36,25 @@ The JSON recipe book is encoded like
 	}
 ]
 ```
+
+Example output
+```
+$ ./recipeBook recipe all Honey Sriracha Chicken
+Ingredients:
+      3-4 breasts  Chicken
+  1/3 cup; 2 tbsp  Corn Starch
+    1 cup; 2 tbsp  Water
+         2-3 tbsp  Sriracha
+           5 tbsp  Soy Sauce
+           1 tbsp  Garlic
+          1/4 cup  Sugar
+         2-3 tbsp  Honey
+         To taste  Red Pepper Flakes
+
+Instructions:
+  0. Combine water, sriracha, soy sauce, garlic, sugar, and honey in a saucepan, and bring to boil
+  1. Whisk together 2 tbsp cornstarch and 2 tbsp water until dissolved, and add to saucepan. Reduce to low heat
+  2. Dice chicken and coat in cornstarch
+  3. Heat oil in a skillet, and sautee coated chicken
+  4. Combine chicken and sauce, and add red peppers to taste
+```
