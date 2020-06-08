@@ -288,14 +288,6 @@
 				"quantity" : "2 lb"
 			},
 			{
-				"name" : "Salt",
-				"quantity" : "To taste"
-			},
-			{
-				"name" : "Pepper",
-				"quantity" : "To taste"
-			},
-			{
 				"name" : "Lemon Slice",
 				"quantity" : "As desired"
 			},
@@ -346,14 +338,6 @@
 			{
 				"name" : "Onion Powder",
 				"quantity" : "1 pinch or to taste"
-			},
-			{
-				"name" : "Salt",
-				"quantity" : "to taste"
-			},
-			{
-				"name" : "Pepper",
-				"quantity" : "to taste"
 			}
 		],
 		"instructions" : 
@@ -482,14 +466,6 @@
 				"quantity" : "1 lb"
 			},
 			{
-				"name" : "Salt",
-				"quantity" : "to taste"
-			},
-			{
-				"name" : "Pepper",
-				"quantity" : "to taste"
-			},
-			{
 				"name" : "Sesame Seeds",
 				"quantity" : "to taste"
 			},
@@ -551,14 +527,6 @@
 			{
 				"name" : "Bay Leaf",
 				"quantity" : "1"
-			},
-			{
-				"name" : "Salt",
-				"quantity" : "to taste"
-			},
-			{
-				"name" : "Pepper",
-				"quantity" : "to taste"
 			}
 		],
 		"instructions" : 
@@ -573,7 +541,58 @@
 		[
 			"Vegan",
 			"Safe",
+			"Dinner",
 			"Soup"
+		]
+	},
+	{
+		"ingredients" : 
+		[
+			{
+				"name" : "Potato",
+				"quantity" : "2 lbs"
+			},
+			{
+				"name" : "Olive Oil",
+				"quantity" : "2 tbsp"
+			},
+			{
+				"name" : "Garlic Powder",
+				"quantity" : "1 tsp"
+			},
+			{
+				"name" : "Paprika",
+				"quantity" : "1/2 tsp"
+			},
+			{
+				"name" : "Rosemary",
+				"quantity" : "3/4 tbsp"
+			},
+			{
+				"name" : "Parsley",
+				"quantity" : "3/4 tbsp"
+			},
+			{
+				"name" : "Thyme",
+				"quantity" : "3/4 tbsp"
+			},
+			{
+				"name" : "Basil",
+				"quantity" : "3/4 tbsp"
+			}
+		],
+		"instructions" : 
+		[
+			"Dice unpeeled potatoes into 1 inch cubes",
+			"Toss potatoes with olive oil, paprika, rosemary, parsley, thyme, basil, and salt, pepper",
+			"Roast on a baking sheet for 30-35 minutes at 425F"
+		],
+		"name" : "Oven Roasted Potatoes",
+		"tags" : 
+		[
+			"Side",
+			"Vegan",
+			"Safe"
 		]
 	}
 ]
