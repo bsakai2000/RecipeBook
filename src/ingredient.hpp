@@ -1,3 +1,6 @@
+#ifndef INGREDIENT_HPP
+#define INGREDIENT_HPP
+
 #include <string>
 
 class Ingredient
@@ -11,3 +14,4 @@ class Ingredient
 		std::string quantity;
 };
 
+#endif
