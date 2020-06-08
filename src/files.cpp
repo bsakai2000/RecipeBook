@@ -81,3 +81,61 @@ std::vector<Recipe> read_recipes(const std::string &file_name)
 
 	return recipes;
 }
+
+void write_recipes(const std::string &file_name, const std::vector<Recipe> &recipes)
+{
+	Json::Value recipes_tree(Json::arrayValue);
+	for(size_t i = 0; i < recipes.size(); ++i)
+	{
+		Json::Value recipe(Json::objectValue);
+		recipe["name"] = recipes[i].get_name();
+		Json::Value ingredients_tree(Json::arrayValue);
+		std::vector<Ingredient> ingredients = recipes[i].get_ingredients();
+		for(size_t j = 0; j < ingredients.size(); ++j)
+		{
+			Json::Value ingredient(Json::objectValue);
+			ingredient["name"] = ingredients[j].name;
+			ingredient["quantity"] = ingredients[j].quantity;
+			ingredients_tree.append(ingredient);
+		}
+		recipe["ingredients"] = ingredients_tree;
+		recipe["instructions"] = Json::Value(Json::arrayValue);
+		std::vector<std::string> instructions = recipes[i].get_instructions();
+		for(size_t j = 0; j < instructions.size(); ++j)
+		{
+			recipe["instructions"].append(instructions[j]);
+		}
+		recipe["tags"] = Json::Value(Json::arrayValue);
+		std::vector<std::string> tags = recipes[i].get_tags();
+		for(size_t j = 0; j < tags.size(); ++j)
+		{
+			recipe["tags"].append(tags[j]);
+		}
+		recipes_tree.append(recipe);
+	}
+
+	Json::StreamWriterBuilder builder;
+	Json::StreamWriter* writer = builder.newStreamWriter();
+
+	std::ostringstream stream;
+	writer->write(recipes_tree, &stream);
+	std::string stream_str = stream.str();
+	size_t buffer_size = stream_str.size();
+	const char* output_buffer = stream_str.c_str();
+
+	const char* c_file_name = file_name.c_str();
+	FILE* file = fopen(c_file_name, "w");
+	if(!file)
+	{
+		fprintf(stderr, "Could not open %s\n", c_file_name);
+		exit(1);
+	}
+
+	if(fwrite(output_buffer, 1, buffer_size, file) != buffer_size)
+	{
+		fprintf(stderr, "Wrote wrong number of bytes to %s\n", c_file_name);
+		exit(1);
+	}
+
+	delete writer;
+}
