@@ -1,0 +1,213 @@
+[
+	{
+		"ingredients" : 
+		[
+			{
+				"name" : "Chicken",
+				"quantity" : "3-4 breasts"
+			},
+			{
+				"name" : "Corn Starch",
+				"quantity" : "1/3 cup; 2 tbsp"
+			},
+			{
+				"name" : "Water",
+				"quantity" : "1 cup; 2 tbsp"
+			},
+			{
+				"name" : "Sriracha",
+				"quantity" : "2-3 tbsp"
+			},
+			{
+				"name" : "Soy Sauce",
+				"quantity" : "5 tbsp"
+			},
+			{
+				"name" : "Garlic",
+				"quantity" : "1 tbsp"
+			},
+			{
+				"name" : "Sugar",
+				"quantity" : "1/4 cup"
+			},
+			{
+				"name" : "Honey",
+				"quantity" : "2-3 tbsp"
+			},
+			{
+				"name" : "Red Pepper Flakes",
+				"quantity" : "To taste"
+			}
+		],
+		"instructions" : 
+		[
+			"Combine water, sriracha, soy sauce, garlic, sugar, and honey in a saucepan, and bring to boil",
+			"Whisk together 2 tbsp cornstarch and 2 tbsp water until dissolved, and add to saucepan. Reduce to low heat",
+			"Dice chicken and coat in cornstarch",
+			"Heat oil in a skillet, and sautee coated chicken",
+			"Combine chicken and sauce, and add red peppers to taste"
+		],
+		"name" : "Honey Sriracha Chicken",
+		"tags" : 
+		[
+			"Asian",
+			"Dinner",
+			"Fast",
+			"Spicy",
+			"Safe"
+		]
+	},
+	{
+		"ingredients" : 
+		[
+			{
+				"name" : "Vegetable Oil",
+				"quantity" : "1 tbsp; 1 tsp"
+			},
+			{
+				"name" : "Broccoli",
+				"quantity" : "1 cup"
+			},
+			{
+				"name" : "Mushroom",
+				"quantity" : "1 cup"
+			},
+			{
+				"name" : "Bell Pepper",
+				"quantity" : "1"
+			},
+			{
+				"name" : "Chicken",
+				"quantity" : "1 lb"
+			},
+			{
+				"name" : "Garlic",
+				"quantity" : "4 cloves"
+			},
+			{
+				"name" : "Chicken Broth",
+				"quantity" : "3/4 cup"
+			},
+			{
+				"name" : "Sugar",
+				"quantity" : "1.5 tsp"
+			},
+			{
+				"name" : "Soy Sauce",
+				"quantity" : "1 tbsp"
+			},
+			{
+				"name" : "Sesame Oil",
+				"quantity" : "2 tsp"
+			},
+			{
+				"name" : "Cornstarch",
+				"quantity" : "2 tsp"
+			}
+		],
+		"instructions" : 
+		[
+			"Heat 1 tsp oil in large pan over high heat",
+			"Add broccoli, mushrooms, and bell pepper to pan, and cook until tender (5-6 minutes)",
+			"Remove vegetables from heat, cover, and set aside",
+			"Add chicken and 1 tbsp oil to pan on high heat",
+			"Cook chicken through, then add garlic and vegetables",
+			"Whisk together chicken broth, sugar, soy sauce, sesame oil, and cornstarch",
+			"Pour sauce over chicken mixture, and simmer until sauce thickens"
+		],
+		"name" : "Garlic Chicken Stir Fry",
+		"tags" : 
+		[
+			"Asian",
+			"Dinner",
+			"Safe"
+		]
+	},
+	{
+		"ingredients" : 
+		[
+			{
+				"name" : "Margarine",
+				"quantity" : "1/2 cup"
+			},
+			{
+				"name" : "Powdered Sugar",
+				"quantity" : "1/4 cup"
+			},
+			{
+				"name" : "Flour",
+				"quantity" : "1 cup; 2 tbsp"
+			},
+			{
+				"name" : "Egg",
+				"quantity" : "2"
+			},
+			{
+				"name" : "Baking Powder",
+				"quantity" : "1/2 tsp"
+			},
+			{
+				"name" : "Sugar",
+				"quantity" : "1 cup"
+			},
+			{
+				"name" : "Lemon Juice",
+				"quantity" : "1 tbsp"
+			},
+			{
+				"name" : "Lemon Zest",
+				"quantity" : "1 rind"
+			}
+		],
+		"instructions" : 
+		[
+			"Mix margarine, powdered sugar, and 1 cup flour",
+			"Pat into 8x8 pan and bake for 30 minutes at 350F",
+			"Mix eggs, 2 tbsp flour, baking power, sugar, lemon juice, and lemon rind and pour onto crust",
+			"Bake for 25 more minutes at 350F"
+		],
+		"name" : "Lemon Bars",
+		"tags" : 
+		[
+			"Dessert"
+		]
+	},
+	{
+		"ingredients" : 
+		[
+			{
+				"name" : "Sugar",
+				"quantity" : "2.25 cups"
+			},
+			{
+				"name" : "Margarine",
+				"quantity" : "1/4 cup"
+			},
+			{
+				"name" : "Evaporate Milk",
+				"quantity" : "3/4 cup"
+			},
+			{
+				"name" : "Marshmallow Cream",
+				"quantity" : "5 ounces"
+			},
+			{
+				"name" : "Chocolate Chips",
+				"quantity" : "1 cup"
+			}
+		],
+		"instructions" : 
+		[
+			"Mix sugar, margarine, and evaporated milk over medium heat until sugar dissolves",
+			"Boil for 5 minutes, stirring constantly",
+			"Remove pan from heat and add marshmallow cream and chocolate chips",
+			"Stir until chocolate is dissolved",
+			"Pour into greased pan and let cool in refrigerator"
+		],
+		"name" : "Marshmallow Fudge",
+		"tags" : 
+		[
+			"Dessert"
+		]
+	}
+]

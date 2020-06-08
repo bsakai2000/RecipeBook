@@ -6,7 +6,7 @@
 #include "files.hpp"
 
 #ifndef RECIPE_BOOK
-#define RECIPE_BOOK "recipe.json"
+#define RECIPE_BOOK "recipes.json"
 #endif
 
 std::vector<std::string> search_by_tag(const std::vector<Recipe> &recipes, const std::vector<std::string> &tag)
