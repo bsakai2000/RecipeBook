@@ -594,5 +594,82 @@
 			"Vegan",
 			"Safe"
 		]
+	},
+	{
+		"ingredients" : 
+		[
+			{
+				"name" : "Lemon Juice",
+				"quantity" : "2 cups"
+			},
+			{
+				"name" : "Sugar",
+				"quantity" : "2 cups"
+			},
+			{
+				"name" : "Water",
+				"quantity" : "1 cup; 1 gallon"
+			}
+		],
+		"instructions" : 
+		[
+			"Mix 1 cup hot water with sugar and stir until dissolved",
+			"Add lemon juice to sugar mixture",
+			"Add cold water to create a total volume of 1 gallon",
+			"Chill"
+		],
+		"name" : "Lemonade",
+		"tags" : 
+		[
+			"Drink",
+			"Safe",
+			"Vegan"
+		]
+	},
+	{
+		"ingredients" : 
+		[
+			{
+				"name" : "Olive Oil",
+				"quantity" : "1/4 cup"
+			},
+			{
+				"name" : "Silken Tofu",
+				"quantity" : "1/4 cup"
+			},
+			{
+				"name" : "Lemon Zest",
+				"quantity" : "1/2 tsp"
+			},
+			{
+				"name" : "Lemon Juice",
+				"quantity" : "2 tbsp"
+			},
+			{
+				"name" : "Dijon Mustard",
+				"quantity" : "2 tsp"
+			},
+			{
+				"name" : "Capers",
+				"quantity" : "2 tsp"
+			},
+			{
+				"name" : "Nutritional Yeast",
+				"quantity" : "2 tsp"
+			}
+		],
+		"instructions" : 
+		[
+			"Puree oil, tofu, lemon zest, lemon juice, mustard, capers, and nutritional yeast in a blender until smooth",
+			"Season with salt and pepper",
+			"Serve over lettuce"
+		],
+		"name" : "Caesar Salad",
+		"tags" : 
+		[
+			"Side",
+			"Safe",
+			"Vegan"
+		]
 	}
 ]
