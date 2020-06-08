@@ -137,5 +137,6 @@ void write_recipes(const std::string &file_name, const std::vector<Recipe> &reci
 		exit(1);
 	}
 
+	fclose(file);
 	delete writer;
 }
