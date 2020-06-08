@@ -168,7 +168,7 @@ int main(int argc, char* argv[])
 			return 0;
 		}
 
-		if(argc < 4)
+		if((args.size() < 3) || (args[1] != "all" && args[1] != "ingredients" && args[1] != "instructions"))
 		{
 			usage(argv[0]);
 			return 1;
