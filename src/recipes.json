@@ -512,5 +512,68 @@
 			"Dinner",
 			"Safe"
 		]
+	},
+	{
+		"ingredients" : 
+		[
+			{
+				"name" : "Split Peas",
+				"quantity" : "2 cups"
+			},
+			{
+				"name" : "Water",
+				"quantity" : "2 quarts"
+			},
+			{
+				"name" : "Celery",
+				"quantity" : "2 stalks"
+			},
+			{
+				"name" : "Carrot",
+				"quantity" : "2"
+			},
+			{
+				"name" : "Onion",
+				"quantity" : "1"
+			},
+			{
+				"name" : "Thyme",
+				"quantity" : "1/4 tsp"
+			},
+			{
+				"name" : "Marjoram",
+				"quantity" : "1/4 tsp"
+			},
+			{
+				"name" : "Cayenne",
+				"quantity" : "1 dash"
+			},
+			{
+				"name" : "Bay Leaf",
+				"quantity" : "1"
+			},
+			{
+				"name" : "Salt",
+				"quantity" : "to taste"
+			},
+			{
+				"name" : "Pepper",
+				"quantity" : "to taste"
+			}
+		],
+		"instructions" : 
+		[
+			"Mix all ingredients together",
+			"Cover and cook slowly for about 1 hour, until peas are very soft",
+			"Force through coarse sieve",
+			"Return to heat and bring to a boil"
+		],
+		"name" : "Split Pea Soup",
+		"tags" : 
+		[
+			"Vegan",
+			"Safe",
+			"Soup"
+		]
 	}
 ]
