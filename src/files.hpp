@@ -9,6 +9,7 @@
 #include "ingredient.hpp"
 #include "recipe.hpp"
 
+// Read the JSON in file_name and return a vector of Recipe objects
 std::vector<Recipe> read_recipes(const std::string &file_name);
 
 #endif

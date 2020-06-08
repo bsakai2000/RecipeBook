@@ -8,5 +8,6 @@ Ingredient::Ingredient(const std::string &name, const std::string &quantity)
 
 bool Ingredient::operator==(const Ingredient &ingredient)
 {
-	return (this->name == ingredient.name) && (this->quantity == ingredient.quantity);
+	// Two ingredients are equal if the name matches
+	return this->name == ingredient.name;
 }
