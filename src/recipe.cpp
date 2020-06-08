@@ -12,49 +12,48 @@ Recipe::~Recipe()
 {
 }
 
-std::string Recipe::get_name()
+std::string Recipe::get_name() const
 {
 	return this->name;
 }
 
-std::vector<Ingredient> Recipe::get_ingredients()
+std::vector<Ingredient> Recipe::get_ingredients() const
 {
 	return this->ingredients;
 }
 
-std::vector<std::string> Recipe::get_tags()
+std::vector<std::string> Recipe::get_tags() const
 {
 	return this->tags;
 }
 
-std::vector<std::string> Recipe::get_instructions()
+std::vector<std::string> Recipe::get_instructions() const
 {
 	return this->instructions;
 }
 
-void Recipe::add_tag(const std::string &tag)
+bool Recipe::has_tag(const std::string &tag) const
 {
-	if(std::find(this->tags.begin(), this->tags.end(), tag) != this->tags.end())
+	// Returns true if the tag is in our list
+	return (std::find(this->tags.begin(), this->tags.end(), tag) != this->tags.end());
+}
+
+bool Recipe::has_tag(const std::vector<std::string> &search_tags) const
+{
+	// Check each tag to see if we have it
+	for(size_t i = 0; i < search_tags.size(); ++i)
 	{
-		this->tags.push_back(tag);
+		if(!this->has_tag(search_tags[i]))
+		{
+			return false;
+		}
 	}
+	return true;
 }
 
-void Recipe::add_ingredient(const Ingredient &ingredient)
+bool Recipe::has_ingredient(const std::string &ingredient) const
 {
-	if(std::find(this->ingredients.begin(), this->ingredients.end(), ingredient) != this->ingredients.end())
-	{
-		this->ingredients.push_back(ingredient);
-	}
-}
-
-bool Recipe::has_tag(const std::string &tag)
-{
-	return (std::find(this->tags.begin(), this->tags.end(), tag) != tags.end());
-}
-
-bool Recipe::has_ingredient(const std::string &ingredient)
-{
+	// Returns true if there is an ingredient with this name in the recipe
 	for(size_t i = 0; i < ingredients.size(); ++i)
 	{
 		if(ingredients[i].name == ingredient)
@@ -63,4 +62,16 @@ bool Recipe::has_ingredient(const std::string &ingredient)
 		}
 	}
 	return false;
+}
+
+bool Recipe::has_ingredient(const std::vector<std::string> &search_ingredients) const
+{
+	for(size_t i = 0; i < search_ingredients.size(); ++i)
+	{
+		if(!this->has_ingredient(search_ingredients[i]))
+		{
+			return false;
+		}
+	}
+	return true;
 }

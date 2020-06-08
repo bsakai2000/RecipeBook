@@ -13,17 +13,19 @@ class Recipe
 		Recipe(const std::string &name, const std::vector<Ingredient> &ingredients, const std::vector<std::string> &tags, const std::vector<std::string> &instructions);
 		~Recipe();
 
-		std::string get_name();
-		std::vector<Ingredient> get_ingredients();
-		std::vector<std::string> get_tags();
-		std::vector<std::string> get_instructions();
+		std::string get_name() const;
+		std::vector<Ingredient> get_ingredients() const;
+		std::vector<std::string> get_tags() const;
+		std::vector<std::string> get_instructions() const;
 
-		void add_tag(const std::string &tag);
-		void add_ingredient(const Ingredient &ingredient);
-		void add_instruction(const std::string &instruction);
-
-		bool has_tag(const std::string &tag);
-		bool has_ingredient(const std::string &ingredient);
+		// Returns true if the recipe has this tag
+		bool has_tag(const std::string &tag) const;
+		// Returns true if the recipe has all of these tags
+		bool has_tag(const std::vector<std::string> &search_tags) const;
+		// Returns true if the recipe has this ingredient
+		bool has_ingredient(const std::string &ingredient) const;
+		// Returns true if the recipe has all of these ingredients
+		bool has_ingredient(const std::vector<std::string> &ingredients) const;
 
 	private:
 		std::string name;
