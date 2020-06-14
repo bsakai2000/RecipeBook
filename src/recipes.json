@@ -373,7 +373,7 @@
 				"quantity" : "1 tsp"
 			},
 			{
-				"name" : "Green Onions",
+				"name" : "Green Onion",
 				"quantity" : "To taste"
 			},
 			{
@@ -470,7 +470,7 @@
 				"quantity" : "to taste"
 			},
 			{
-				"name" : "Green Onions",
+				"name" : "Green Onion",
 				"quantity" : "to taste"
 			}
 		],
@@ -542,7 +542,8 @@
 			"Vegan",
 			"Safe",
 			"Dinner",
-			"Soup"
+			"Soup",
+			"Comfort"
 		]
 	},
 	{
@@ -670,6 +671,167 @@
 			"Side",
 			"Safe",
 			"Vegan"
+		]
+	},
+	{
+		"ingredients" : 
+		[
+			{
+				"name" : "Chicken",
+				"quantity" : "2 breasts"
+			},
+			{
+				"name" : "Olive Oil",
+				"quantity" : "1 tbsp"
+			},
+			{
+				"name" : "Margarine",
+				"quantity" : "2 tbsp"
+			},
+			{
+				"name" : "Flour",
+				"quantity" : "1 tbsp"
+			},
+			{
+				"name" : "Chicken Broth",
+				"quantity" : "3/4 cup"
+			},
+			{
+				"name" : "Green Onion",
+				"quantity" : "2 tbsp"
+			},
+			{
+				"name" : "Chile Powder",
+				"quantity" : "1/2 tsp"
+			}
+		],
+		"instructions" : 
+		[
+			"Halve each chicken breast",
+			"Heat olive oil in a skillet on high heat about 1 minute, then reduce to medium and cook chicken through",
+			"Set chicken aside",
+			"Melt margarine in the skillet, stir in flour and chicken broth and heat until simmering",
+			"Stir in green onions and chile powder",
+			"Add chicken to skillet and heat until warm"
+		],
+		"name" : "Chipotle Gravy Chicken",
+		"tags" : 
+		[
+			"Dinner",
+			"Safe",
+			"Vegetarian",
+			"Comfort"
+		]
+	},
+	{
+		"ingredients" : 
+		[
+			{
+				"name" : "Flour",
+				"quantity" : "2.5 cups; 7 tbsp"
+			},
+			{
+				"name" : "Baking Powder",
+				"quantity" : "1 tbsp"
+			},
+			{
+				"name" : "Baking Soda",
+				"quantity" : "1/2 tsp"
+			},
+			{
+				"name" : "Margarine",
+				"quantity" : "4 tbsp; 5 tbsp"
+			},
+			{
+				"name" : "Cashew Milk",
+				"quantity" : "1 cup; 4 cups"
+			},
+			{
+				"name" : "Lemon Juice",
+				"quantity" : "1 tbsp"
+			},
+			{
+				"name" : "Sausage",
+				"quantity" : "1"
+			},
+			{
+				"name" : "Garlic Powder",
+				"quantity" : "to taste"
+			}
+		],
+		"instructions" : 
+		[
+			"Heat 5 tbsp margarine in a pot over medium-high heat, then add 7 tbsp flour and stir until golden brown, about 2 minutes",
+			"Add garlic powder and sausage, and heat until thick",
+			"Slowly stir in cashew milk, bring to a boil, and then reduce heat and stir until gravy thickens",
+			"Season with pepper and salt, and set aside on low heat",
+			"Combine 1 cup cashew milk with lemon juice, and let stand for 10 minutes",
+			"Combine 2.5 cups flour, baking powder, baking soda, and a pinch of salt in a medium bowl",
+			"Add chilled margarine and cut into flour using the back of a fork, until butter is pea sized and mixture is crumbly",
+			"Add lemon juice mixture and combine until dough becomes tacky (not sticky), adding more flour if needed",
+			"Place dough on a floured surgace, patting about 1 inch thick",
+			"Fold dough onto itself 3 times, then flatten to 3/4 inch thick",
+			"Using a 2.5 in. cookie cutter, cut biscuits out WITHOUT TWISTING",
+			"Place biscuits on a greased baking sheet and bake at 425F for 15-18 minutes"
+		],
+		"name" : "Biscuits and Gravy",
+		"tags" : 
+		[
+			"Comfort",
+			"Side",
+			"Safe",
+			"Vegetarian"
+		]
+	},
+	{
+		"ingredients" : 
+		[
+			{
+				"name" : "Sugar",
+				"quantity" : "1 cup"
+			},
+			{
+				"name" : "Salt",
+				"quantity" : "1 teaspoon"
+			},
+			{
+				"name" : "Egg",
+				"quantity" : "2"
+			},
+			{
+				"name" : "Nutmeg",
+				"quantity" : "1 teaspoon"
+			},
+			{
+				"name" : "Milk",
+				"quantity" : "3/4 cup"
+			},
+			{
+				"name" : "Flour",
+				"quantity" : "3 cups"
+			},
+			{
+				"name" : "Baking Powder",
+				"quantity" : "5 teaspoons"
+			},
+			{
+				"name" : "Crisco",
+				"quantity" : "2-3 tubs"
+			}
+		],
+		"instructions" : 
+		[
+			"Combine all ingredients and mix until combined. Do not overmix!",
+			"Roll dough until 1/2 inch thick, then cut donut shapes out",
+			"Melt Crisco in a pan until very hot",
+			"Fry donuts in Crisco, moving constantly to prevent sticking",
+			"Remove donuts when they have risen and are golden brown, and place on paper towel to absorb excess oil"
+		],
+		"name" : "Cake Donuts",
+		"tags" : 
+		[
+			"Dessert",
+			"Vegetarian"
 		]
 	}
 ]
