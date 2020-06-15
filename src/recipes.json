@@ -833,5 +833,38 @@
 			"Dessert",
 			"Vegetarian"
 		]
+	},
+	{
+		"ingredients" : 
+		[
+			{
+				"name" : "Margarine",
+				"quantity" : "1/2 cup"
+			},
+			{
+				"name" : "Water",
+				"quantity" : "6 tbsp"
+			},
+			{
+				"name" : "Cocoa Powder",
+				"quantity" : "1/4 cup"
+			},
+			{
+				"name" : "Powdered Sugar",
+				"quantity" : "16 oz"
+			}
+		],
+		"instructions" : 
+		[
+			"Combine water, margarine, and cocoa powder in saucepan and bring to a boil",
+			"Remove from heat and stir in powdered sugar until desired consistency is achieved"
+		],
+		"name" : "Silky Chocolate Frosting",
+		"tags" : 
+		[
+			"Dessert",
+			"Vegan",
+			"Safe"
+		]
 	}
 ]
