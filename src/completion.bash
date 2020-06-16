@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
 # The path to our binary
-recipeBookPath="./recipeBook"
+recipeBookPath="recipeBook"
 
-recipe_completions()
+_recipeBook()
 {
 	case ${#COMP_WORDS[@]} in
 		# If we have 1, something is wrong. Give up
@@ -28,31 +28,47 @@ recipe_completions()
 			;;
 		# Past 3, we are assuming this is a search
 		* )
+			unescaped=()
+			# Decide which submenu we're in
 			case "${COMP_WORDS[1]}" in
 				"recipe" )
-					if [[ COMP_CWORD -eq 3 && "${COMP_WORDS[2]}" =~ ^(all|ingredients|instructions)$ ]]
+					# If we're looking at a recipe, create our list from the list of recipes
+					if [[ $COMP_CWORD -eq 3 && "${COMP_WORDS[2]}" =~ ^(all|ingredients|instructions)$ ]]
 					then
 						local IFS=$'\n'
 						unescaped=($(compgen -W "$($recipeBookPath list recipes)" "${COMP_WORDS[3]}"))
-						COMPREPLY=($(printf '%q\n' "${unescaped[@]}"))
 					fi
 					;;
 				"search" )
 					case "${COMP_WORDS[2]}" in
+						# If we're looking for a recipe, make our list from the list of ingredients
 						"ingredient" )
 							local IFS=$'\n'
 							unescaped=($(compgen -W "$($recipeBookPath list ingredients)" "${COMP_WORDS[COMP_CWORD]}"))
-							COMPREPLY=($(printf '%q\n' "${unescaped[@]}"))
 							;;
+						# If we're looking for a tag, make our list from the list of tags
 						"tag" )
 							local IFS=$'\n'
 							unescaped=($(compgen -W "$($recipeBookPath list tags)" "${COMP_WORDS[COMP_CWORD]}"))
-							COMPREPLY=($(printf '%q\n' "${unescaped[@]}"))
 							;;
 					esac
 					;;
 			esac
+
+			# Format for output
+			if [ ${#unescaped[@]} -eq 0 ]
+			then
+				COMPREPLY=()
+			else
+				# If we're not quoted, we need to escape certain characters
+				if [[ ${COMP_WORDS[COMP_CWORD]} == \"* ]]
+				then
+					COMPREPLY=("${unescaped[@]}")
+				else
+					COMPREPLY=($(printf '%q\n' "${unescaped[@]}"))
+				fi
+			fi
 	esac
 }
 
-complete -F recipe_completions $recipeBookPath
+complete -F _recipeBook $recipeBookPath

@@ -3,11 +3,10 @@ Read and explore JSON-encoded recipes
 
 Usage is as follows:
 ```
-./recipeBook search [tag|ingredient] term1 [term2 ...]
-./recipeBook recipe list
-./recipeBook recipe add
+./recipeBook add
+./recipeBook list [ingredients|recipes|tags]
 ./recipeBook recipe [ingredients|instructions|all] recipename
-
+./recipeBook search [tag|ingredient] term1 [term2 ...]
 ```
 Tags are used to categorize recipes. The search allows searching by tag or ingredient, so to find all recipes that use chicken one would say `./recipeBook search ingredient Chicken`
 
@@ -39,7 +38,7 @@ The JSON recipe book is encoded like
 
 Example output
 ```
-$ ./recipeBook recipe all Honey Sriracha Chicken
+$ ./recipeBook recipe all "Honey Sriracha Chicken"
 Ingredients:
       3-4 breasts  Chicken
   1/3 cup; 2 tbsp  Corn Starch
@@ -65,3 +64,4 @@ Files:
  - recipeBook.cpp: The main that provides a way to interact with our recipe book JSON file
  - recipe.cpp, recipe.hpp: The Recipe class that represents one recipe as a name, list of ingredients, list of steps, and list of tags
  - recipes.json: A sample recipe book
+ - completion.bash: A bash completion script for the recipeBook (Note that you should change recipeBookPath to match how you'll be calling it)
