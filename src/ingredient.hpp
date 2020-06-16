@@ -8,8 +8,9 @@ class Ingredient
 	public:
 		Ingredient(const std::string &name, const std::string &quantity);
 
-		// Two ingredients are equal if they have the same name
+		// Ingredient comparison is done by name
 		bool operator==(const Ingredient &ingredient);
+		bool operator<(const Ingredient &ingredient);
 		
 		std::string name;
 		std::string quantity;

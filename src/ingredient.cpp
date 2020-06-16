@@ -11,3 +11,8 @@ bool Ingredient::operator==(const Ingredient &ingredient)
 	// Two ingredients are equal if the name matches
 	return this->name == ingredient.name;
 }
+
+bool Ingredient::operator<(const Ingredient &ingredient)
+{
+	return this->name < ingredient.name;
+}

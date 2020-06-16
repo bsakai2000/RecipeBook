@@ -125,16 +125,16 @@ Recipe add_recipe()
 void usage(char* filename)
 {
 	fprintf(stderr, "Usage:\n");
-	fprintf(stderr, "%s search [tag|ingredient] term1 [term2 ...]\n", filename);
-	fprintf(stderr, "%s recipe list\n", filename);
-	fprintf(stderr, "%s recipe add\n", filename);
+	fprintf(stderr, "%s add\n", filename);
+	fprintf(stderr, "%s list [ingredients|recipes|tags]\n", filename);
 	fprintf(stderr, "%s recipe [ingredients|instructions|all] recipename\n", filename);
+	fprintf(stderr, "%s search [tag|ingredient] term1 [term2 ...]\n", filename);
 }
 
 int main(int argc, char* argv[])
 {
-	// We need at least 2 arguments
-	if(argc < 3)
+	// We need at least 1 argument
+	if(argc < 2)
 	{
 		usage(argv[0]);
 		return 1;
@@ -146,7 +146,87 @@ int main(int argc, char* argv[])
 
 	// Put all the recipes in our vector
 	std::vector<Recipe> recipes = read_recipes(RECIPE_BOOK);
-	if(args[0] == "search")
+
+	if(args[0] == "add")
+	{
+		// Create a new recipe and write back to disk
+		Recipe new_recipe = add_recipe();
+		recipes.push_back(new_recipe);
+		write_recipes(RECIPE_BOOK, recipes);
+		return 0;
+	}
+	else if(args[0] == "list")
+	{
+		// We require the name of the item to list
+		if(args.size() < 2)
+		{
+			usage(argv[0]);
+			return 1;
+		}
+
+		if(args[1] == "ingredients")
+		{
+			// Combine all ingredient lists into one list
+			std::vector<Ingredient> all_ingredients;
+			for(size_t i = 0; i < recipes.size(); ++i)
+			{
+				std::vector<Ingredient> this_ingredients = recipes[i].get_ingredients();
+				all_ingredients.insert(all_ingredients.end(), this_ingredients.begin(), this_ingredients.end());
+			}
+			// Sort and remove duplicates
+			std::sort(all_ingredients.begin(), all_ingredients.end());
+			std::vector<Ingredient>::iterator it = std::unique(all_ingredients.begin(), all_ingredients.end());
+			all_ingredients.erase(it, all_ingredients.end());
+			// Print sorted ingredient list
+			for(size_t i = 0; i < all_ingredients.size(); ++i)
+			{
+				printf("%s\n", all_ingredients[i].name.c_str());
+			}
+		}
+		else if(args[1] == "recipes")
+		{
+			// Get all recipe names
+			std::vector<std::string> all_recipes;
+			for(size_t i = 0; i < recipes.size(); ++i)
+			{
+				all_recipes.push_back(recipes[i].get_name());
+			}
+			// Sort names
+			std::sort(all_recipes.begin(), all_recipes.end());
+			// List all recipe names
+			for(size_t i = 0; i < all_recipes.size(); ++i)
+			{
+				printf("%s\n", all_recipes[i].c_str());
+			}
+		}
+		else if(args[1] == "tags")
+		{
+			// Combine all tags into a single list
+			std::vector<std::string> all_tags;
+			for(size_t i = 0; i < recipes.size(); ++i)
+			{
+				std::vector<std::string> this_tags = recipes[i].get_tags();
+				all_tags.insert(all_tags.end(), this_tags.begin(), this_tags.end());
+			}
+			// Sort and remove duplicates
+			std::sort(all_tags.begin(), all_tags.end());
+			std::vector<std::string>::iterator it = std::unique(all_tags.begin(), all_tags.end());
+			all_tags.erase(it, all_tags.end());
+			// Print sorted tags list
+			for(size_t i = 0; i < all_tags.size(); ++i)
+			{
+				printf("%s\n", all_tags[i].c_str());
+			}
+		}
+		else
+		{
+			// If we can't list it, give up
+			usage(argv[0]);
+			return 1;
+		}
+		return 0;
+	}
+	else if(args[0] == "search")
 	{
 		// We need a search term and method
 		if(args.size() < 3)
@@ -189,24 +269,6 @@ int main(int argc, char* argv[])
 	}
 	else if(args[0] == "recipe")
 	{
-		// List all recipe names
-		if(args[1] == "list")
-		{
-			for(size_t i = 0; i < recipes.size(); ++i)
-			{
-				printf("%s\n", recipes[i].get_name().c_str());
-			}
-			return 0;
-		}
-		// Create a new recipe and write back to disk
-		if(args[1] == "add")
-		{
-			Recipe new_recipe = add_recipe();
-			recipes.push_back(new_recipe);
-			write_recipes(RECIPE_BOOK, recipes);
-			return 0;
-		}
-
 		// If this is a bad argument list, give up
 		if((args.size() < 3) || (args[1] != "all" && args[1] != "ingredients" && args[1] != "instructions"))
 		{
