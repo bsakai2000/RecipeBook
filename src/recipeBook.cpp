@@ -276,13 +276,8 @@ int main(int argc, char* argv[])
 			return 1;
 		}
 
-		// Create the recipe name from args
-		std::string recipe_name = "";
-		for(size_t i = 2; i < args.size(); ++i)
-		{
-			recipe_name += args[i] + " ";
-		}
-		recipe_name.pop_back();
+		// Get the recipe name
+		std::string recipe_name = args[2];
 
 		// Find the recipe named recipe_name
 		Recipe* recipe = NULL;
