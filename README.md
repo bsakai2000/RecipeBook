@@ -10,7 +10,7 @@ Usage is as follows:
 ```
 Tags are used to categorize recipes. The search allows searching by tag or ingredient, so to find all recipes that use chicken one would say `./recipeBook search ingredient Chicken`
 
-The JSON recipe book is encoded like
+RecipeBook uses a JSON file to store and search recipes. It will use the environment variable RECIPEFILE to locate this file. The JSON recipe book is encoded like
 ```
 [
 	{

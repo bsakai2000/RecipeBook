@@ -1,13 +1,14 @@
 #include <vector>
 #include <cstdio>
+#include <cstdlib>
 #include <iostream>
 
 #include "recipe.hpp"
 #include "files.hpp"
 
-// The name of the file where recipes are stored
-#ifndef RECIPE_BOOK
-#define RECIPE_BOOK "recipes.json"
+// The name of the default file to look for recipes
+#ifndef RECIPE_BOOK_DEFAULT
+#define RECIPE_BOOK_DEFAULT "./recipes.json"
 #endif
 
 // Get the list of recipe names that have all of these tags
@@ -140,19 +141,31 @@ int main(int argc, char* argv[])
 		return 1;
 	}
 
+	std::string recipe_file = RECIPE_BOOK_DEFAULT;
+	char* recipe_env = getenv("RECIPEFILE");
+	if(recipe_env)
+	{
+		recipe_file = recipe_env;
+	}
+	else
+	{
+		fprintf(stderr, "Could not find RECIPEFILE, defaulting to %s\n", RECIPE_BOOK_DEFAULT);
+	}
+	
+
 	// Collect arguments in args
 	std::vector<std::string> args;
 	args.assign(argv + 1, argv + argc);
 
 	// Put all the recipes in our vector
-	std::vector<Recipe> recipes = read_recipes(RECIPE_BOOK);
+	std::vector<Recipe> recipes = read_recipes(recipe_file);
 
 	if(args[0] == "add")
 	{
 		// Create a new recipe and write back to disk
 		Recipe new_recipe = add_recipe();
 		recipes.push_back(new_recipe);
-		write_recipes(RECIPE_BOOK, recipes);
+		write_recipes(recipe_file, recipes);
 		return 0;
 	}
 	else if(args[0] == "list")
