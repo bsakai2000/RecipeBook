@@ -1,6 +1,6 @@
-CXXFLAGS = -g -Wall -Werror
+CXXFLAGS = -Wall -Werror -O2 #-g
 CXXFLAGS += `pkg-config --cflags jsoncpp`
-LXXFLAGS = `pkg-config --libs jsoncpp`
+LXXFLAGS = -s `pkg-config --libs jsoncpp`
 CXX = g++
 
 .PHONY: clean

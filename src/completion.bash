@@ -36,7 +36,9 @@ _recipeBook()
 					if [[ $COMP_CWORD -eq 3 && "${COMP_WORDS[2]}" =~ ^(all|ingredients|instructions)$ ]]
 					then
 						local IFS=$'\n'
-						unescaped=($(compgen -W "$($recipeBookPath list recipes)" "${COMP_WORDS[3]}"))
+						wordlist="$($recipeBookPath list recipes)"
+						wordlist="${wordlist/\'/\\\'}"
+						unescaped=($(compgen -W "$wordlist" "${COMP_WORDS[3]}"))
 					fi
 					;;
 				"search" )
@@ -44,12 +46,16 @@ _recipeBook()
 						# If we're looking for a recipe, make our list from the list of ingredients
 						"ingredient" )
 							local IFS=$'\n'
-							unescaped=($(compgen -W "$($recipeBookPath list ingredients)" "${COMP_WORDS[COMP_CWORD]}"))
+							wordlist="$($recipeBookPath list ingredients)"
+							wordlist="${wordlist/\'/\\\'}"
+							unescaped=($(compgen -W "$wordlist" "${COMP_WORDS[COMP_CWORD]}"))
 							;;
 						# If we're looking for a tag, make our list from the list of tags
 						"tag" )
 							local IFS=$'\n'
-							unescaped=($(compgen -W "$($recipeBookPath list tags)" "${COMP_WORDS[COMP_CWORD]}"))
+							wordlist="$($recipeBookPath list tags)"
+							wordlist="${wordlist/\'/\\\'}"
+							unescaped=($(compgen -W "$wordlist" "${COMP_WORDS[COMP_CWORD]}"))
 							;;
 					esac
 					;;
