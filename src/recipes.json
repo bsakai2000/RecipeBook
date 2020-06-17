@@ -151,19 +151,19 @@
 			},
 			{
 				"name" : "Lemon Juice",
-				"quantity" : "1 tbsp"
+				"quantity" : "4.5 tsp"
 			},
 			{
 				"name" : "Lemon Zest",
-				"quantity" : "1 rind"
+				"quantity" : "1.5 rind"
 			}
 		],
 		"instructions" : 
 		[
 			"Mix margarine, powdered sugar, and 1 cup flour",
-			"Pat into 8x8 pan and bake for 30 minutes at 350F",
+			"Pat into 8x8 pan and bake until at 350F until edges brown, about 20 minutes",
 			"Mix eggs, 2 tbsp flour, baking power, sugar, lemon juice, and lemon rind and pour onto crust",
-			"Bake for 25 more minutes at 350F"
+			"Bake for 25 more minutes at 350F, careful not to let the topping brown"
 		],
 		"name" : "Lemon Bars",
 		"tags" : 
