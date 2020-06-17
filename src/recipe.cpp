@@ -76,3 +76,8 @@ bool Recipe::has_ingredient(const std::vector<std::string> &search_ingredients) 
 	}
 	return true;
 }
+
+bool Recipe::operator<(const Recipe &recipe)
+{
+	return this->name < recipe.name;
+}

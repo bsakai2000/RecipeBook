@@ -27,6 +27,9 @@ class Recipe
 		// Returns true if the recipe has all of these ingredients
 		bool has_ingredient(const std::vector<std::string> &ingredients) const;
 
+		// Recipe comparison is done by name
+		bool operator<(const Recipe &recipe);
+
 	private:
 		std::string name;
 		std::vector<Ingredient> ingredients;

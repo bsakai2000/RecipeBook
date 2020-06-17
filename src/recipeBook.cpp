@@ -159,6 +159,7 @@ int main(int argc, char* argv[])
 
 	// Put all the recipes in our vector
 	std::vector<Recipe> recipes = read_recipes(recipe_file);
+	std::sort(recipes.begin(), recipes.end());
 
 	if(args[0] == "add")
 	{
