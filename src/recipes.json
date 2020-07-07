@@ -3,354 +3,60 @@
 		"ingredients" : 
 		[
 			{
-				"name" : "Chicken",
-				"quantity" : "3-4 breasts"
-			},
-			{
-				"name" : "Corn Starch",
-				"quantity" : "1/3 cup; 2 tbsp"
-			},
-			{
-				"name" : "Water",
-				"quantity" : "1 cup; 2 tbsp"
-			},
-			{
-				"name" : "Sriracha",
-				"quantity" : "2-3 tbsp"
-			},
-			{
-				"name" : "Soy Sauce",
-				"quantity" : "5 tbsp"
-			},
-			{
-				"name" : "Garlic",
-				"quantity" : "1 tbsp"
-			},
-			{
-				"name" : "Sugar",
-				"quantity" : "1/4 cup"
-			},
-			{
-				"name" : "Honey",
-				"quantity" : "2-3 tbsp"
-			},
-			{
-				"name" : "Red Pepper Flakes",
-				"quantity" : "To taste"
-			}
-		],
-		"instructions" : 
-		[
-			"Combine water, sriracha, soy sauce, garlic, sugar, and honey in a saucepan, and bring to boil",
-			"Whisk together 2 tbsp cornstarch and 2 tbsp water until dissolved, and add to saucepan. Reduce to low heat",
-			"Dice chicken and coat in cornstarch",
-			"Heat oil in a skillet, and sautee coated chicken",
-			"Combine chicken and sauce, and add red peppers to taste"
-		],
-		"name" : "Honey Sriracha Chicken",
-		"tags" : 
-		[
-			"Asian",
-			"Dinner",
-			"Spicy",
-			"Safe"
-		]
-	},
-	{
-		"ingredients" : 
-		[
-			{
-				"name" : "Vegetable Oil",
-				"quantity" : "1 tbsp; 1 tsp"
-			},
-			{
-				"name" : "Broccoli",
-				"quantity" : "1 cup"
-			},
-			{
-				"name" : "Mushroom",
-				"quantity" : "1 cup"
-			},
-			{
-				"name" : "Bell Pepper",
-				"quantity" : "1"
-			},
-			{
-				"name" : "Chicken",
-				"quantity" : "1 lb"
-			},
-			{
-				"name" : "Garlic",
-				"quantity" : "4 cloves"
-			},
-			{
-				"name" : "Chicken Broth",
-				"quantity" : "3/4 cup"
-			},
-			{
-				"name" : "Sugar",
-				"quantity" : "1.5 tsp"
-			},
-			{
-				"name" : "Soy Sauce",
-				"quantity" : "1 tbsp"
-			},
-			{
-				"name" : "Sesame Oil",
-				"quantity" : "2 tsp"
-			},
-			{
-				"name" : "Cornstarch",
-				"quantity" : "2 tsp"
-			}
-		],
-		"instructions" : 
-		[
-			"Heat 1 tsp oil in large pan over high heat",
-			"Add broccoli, mushrooms, and bell pepper to pan, and cook until tender (5-6 minutes)",
-			"Remove vegetables from heat, cover, and set aside",
-			"Add chicken and 1 tbsp oil to pan on high heat",
-			"Cook chicken through, then add garlic and vegetables",
-			"Whisk together chicken broth, sugar, soy sauce, sesame oil, and cornstarch",
-			"Pour sauce over chicken mixture, and simmer until sauce thickens"
-		],
-		"name" : "Garlic Chicken Stir Fry",
-		"tags" : 
-		[
-			"Asian",
-			"Dinner",
-			"Safe"
-		]
-	},
-	{
-		"ingredients" : 
-		[
-			{
-				"name" : "Margarine",
-				"quantity" : "1/2 cup"
-			},
-			{
-				"name" : "Powdered Sugar",
-				"quantity" : "1/4 cup"
-			},
-			{
 				"name" : "Flour",
-				"quantity" : "1 cup; 2 tbsp"
-			},
-			{
-				"name" : "Egg",
-				"quantity" : "2"
+				"quantity" : "2.5 cups; 7 tbsp"
 			},
 			{
 				"name" : "Baking Powder",
-				"quantity" : "1/2 tsp"
-			},
-			{
-				"name" : "Sugar",
-				"quantity" : "1 cup"
-			},
-			{
-				"name" : "Lemon Juice",
-				"quantity" : "4.5 tsp"
-			},
-			{
-				"name" : "Lemon Zest",
-				"quantity" : "1.5 rind"
-			}
-		],
-		"instructions" : 
-		[
-			"Mix margarine, powdered sugar, and 1 cup flour",
-			"Pat into 8x8 pan and bake until at 350F until edges brown, about 20 minutes",
-			"Mix eggs, 2 tbsp flour, baking power, sugar, lemon juice, and lemon rind and pour onto crust",
-			"Bake for 25 more minutes at 350F, careful not to let the topping brown"
-		],
-		"name" : "Lemon Bars",
-		"tags" : 
-		[
-			"Dessert",
-			"Vegetarian"
-		]
-	},
-	{
-		"ingredients" : 
-		[
-			{
-				"name" : "Sugar",
-				"quantity" : "2.25 cups"
-			},
-			{
-				"name" : "Margarine",
-				"quantity" : "1/4 cup"
-			},
-			{
-				"name" : "Evaporated Milk",
-				"quantity" : "3/4 cup"
-			},
-			{
-				"name" : "Marshmallow Cream",
-				"quantity" : "5 ounces"
-			},
-			{
-				"name" : "Chocolate Chips",
-				"quantity" : "1 cup"
-			}
-		],
-		"instructions" : 
-		[
-			"Mix sugar, margarine, and evaporated milk over medium heat until sugar dissolves",
-			"Boil for 5 minutes, stirring constantly",
-			"Remove pan from heat and add marshmallow cream and chocolate chips",
-			"Stir until chocolate is dissolved",
-			"Pour into greased pan and let cool in refrigerator"
-		],
-		"name" : "Marshmallow Fudge",
-		"tags" : 
-		[
-			"Dessert",
-			"Vegetarian"
-		]
-	},
-	{
-		"ingredients" : 
-		[
-			{
-				"name" : "Margarine",
-				"quantity" : "1 cup"
-			},
-			{
-				"name" : "Sugar",
-				"quantity" : "3/4 cup"
-			},
-			{
-				"name" : "Brown Sugar",
-				"quantity" : "3/4 cup"
-			},
-			{
-				"name" : "Vanilla",
-				"quantity" : "1 tsp"
-			},
-			{
-				"name" : "Water",
-				"quantity" : "1/2 tsp"
-			},
-			{
-				"name" : "Egg",
-				"quantity" : "2"
-			},
-			{
-				"name" : "Flour",
-				"quantity" : "2.25 cup"
+				"quantity" : "1 tbsp"
 			},
 			{
 				"name" : "Baking Soda",
-				"quantity" : "1 tsp"
+				"quantity" : "1/2 tsp"
 			},
-			{
-				"name" : "Salt",
-				"quantity" : "1 tsp"
-			},
-			{
-				"name" : "Chocolate Chips",
-				"quantity" : "1 cup"
-			}
-		],
-		"instructions" : 
-		[
-			"Add margarine, sugar, brown sugar, vanilla, and water to mixing bowl and beat till creamy",
-			"Add eggs, flour, baking soda, salt, and chocolate chips and mix thoroughly",
-			"Form dough into balls and bake at 375F for 10-12 minutes"
-		],
-		"name" : "Chocolate Chip Cookies",
-		"tags" : 
-		[
-			"Dessert",
-			"Vegetarian"
-		]
-	},
-	{
-		"ingredients" : 
-		[
 			{
 				"name" : "Margarine",
-				"quantity" : "1/3 cup"
+				"quantity" : "4 tbsp; 5 tbsp"
+			},
+			{
+				"name" : "Cashew Milk",
+				"quantity" : "1 cup; 4 cups"
 			},
 			{
 				"name" : "Lemon Juice",
-				"quantity" : "1/4 cup"
+				"quantity" : "1 tbsp"
 			},
 			{
-				"name" : "Garlic",
-				"quantity" : "5 cloves"
+				"name" : "Sausage",
+				"quantity" : "1"
 			},
 			{
-				"name" : "Salmon",
-				"quantity" : "2 lb"
-			},
-			{
-				"name" : "Lemon Slice",
-				"quantity" : "As desired"
-			},
-			{
-				"name" : "Parsley",
-				"quantity" : "1 tbsp; 1 tbsp"
-			},
-			{
-				"name" : "Dill",
-				"quantity" : "1 tsp"
+				"name" : "Garlic Powder",
+				"quantity" : "to taste"
 			}
 		],
 		"instructions" : 
 		[
-			"Line baking sheet with a large piece of foil, big enough to fold over to cover salmon",
-			"Melt butter over medium-low heat, then add garlic and cook 1 minute",
-			"Remove from heat, then add lemon juice and brown sugar",
-			"Place salmon on the lined baking sheet, season with salt and pepper, and sprinkle with 1 tbsp parsley and dill",
-			"Arrange lemon slices on top of the salmon",
-			"Fold the foil over the salmon to completely cover and seal it",
-			"Bake at 375F for 12-15 minutes until done",
-			"Broil for 2-3 minutes on medium heat",
-			"Garnish with 1 tbsp parsley"
+			"Heat 5 tbsp margarine in a pot over medium-high heat, then add 7 tbsp flour and stir until golden brown, about 2 minutes",
+			"Add garlic powder and sausage, and heat until thick",
+			"Slowly stir in cashew milk, bring to a boil, and then reduce heat and stir until gravy thickens",
+			"Season with pepper and salt, and set aside on low heat",
+			"Combine 1 cup cashew milk with lemon juice, and let stand for 10 minutes",
+			"Combine 2.5 cups flour, baking powder, baking soda, and a pinch of salt in a medium bowl",
+			"Add chilled margarine and cut into flour using the back of a fork, until margarine is pea sized and mixture is crumbly",
+			"Add lemon juice mixture and combine until dough becomes tacky (not sticky), adding more flour if needed",
+			"Place dough on a floured surgace, patting about 1 inch thick",
+			"Fold dough onto itself 3 times, then flatten to 3/4 inch thick",
+			"Using a 2.5 in. cookie cutter, cut biscuits out WITHOUT TWISTING",
+			"Place biscuits on a greased baking sheet and bake at 425F for 15-18 minutes"
 		],
-		"name" : "Lemon Butter Garlic Salmon",
+		"name" : "Biscuits and Gravy",
 		"tags" : 
 		[
-			"Fish",
-			"Dinner",
-			"Safe"
-		]
-	},
-	{
-		"ingredients" : 
-		[
-			{
-				"name" : "Broccoli",
-				"quantity" : "1 bunch"
-			},
-			{
-				"name" : "Olive Oil",
-				"quantity" : "2 tbsp"
-			},
-			{
-				"name" : "Garlic",
-				"quantity" : "3 cloves"
-			},
-			{
-				"name" : "Onion Powder",
-				"quantity" : "1 pinch or to taste"
-			}
-		],
-		"instructions" : 
-		[
-			"Toss broccoli florets with olive oil, garlic, salt, and pepper on a baking sheet",
-			"Roast at 450F until edges are crispy, about 20 minutes"
-		],
-		"name" : "Garlic Roasted Broccoli",
-		"tags" : 
-		[
+			"Comfort",
 			"Side",
 			"Safe",
-			"Vegan"
+			"Vegetarian"
 		]
 	},
 	{
@@ -430,6 +136,103 @@
 		"ingredients" : 
 		[
 			{
+				"name" : "Olive Oil",
+				"quantity" : "1/4 cup"
+			},
+			{
+				"name" : "Silken Tofu",
+				"quantity" : "1/4 cup"
+			},
+			{
+				"name" : "Lemon Zest",
+				"quantity" : "1/2 tsp"
+			},
+			{
+				"name" : "Lemon Juice",
+				"quantity" : "2 tbsp"
+			},
+			{
+				"name" : "Dijon Mustard",
+				"quantity" : "2 tsp"
+			},
+			{
+				"name" : "Capers",
+				"quantity" : "2 tsp"
+			},
+			{
+				"name" : "Nutritional Yeast",
+				"quantity" : "2 tsp"
+			}
+		],
+		"instructions" : 
+		[
+			"Puree oil, tofu, lemon zest, lemon juice, mustard, capers, and nutritional yeast in a blender until smooth",
+			"Season with salt and pepper",
+			"Serve over lettuce"
+		],
+		"name" : "Caesar Salad",
+		"tags" : 
+		[
+			"Side",
+			"Safe",
+			"Vegan"
+		]
+	},
+	{
+		"ingredients" : 
+		[
+			{
+				"name" : "Sugar",
+				"quantity" : "1 cup"
+			},
+			{
+				"name" : "Salt",
+				"quantity" : "1 teaspoon"
+			},
+			{
+				"name" : "Egg",
+				"quantity" : "2"
+			},
+			{
+				"name" : "Nutmeg",
+				"quantity" : "1 teaspoon"
+			},
+			{
+				"name" : "Milk",
+				"quantity" : "3/4 cup"
+			},
+			{
+				"name" : "Flour",
+				"quantity" : "3 cups"
+			},
+			{
+				"name" : "Baking Powder",
+				"quantity" : "5 teaspoons"
+			},
+			{
+				"name" : "Crisco",
+				"quantity" : "2-3 tubs"
+			}
+		],
+		"instructions" : 
+		[
+			"Combine all ingredients and mix until combined. Do not overmix!",
+			"Roll dough until 1/2 inch thick, then cut donut shapes out",
+			"Melt Crisco in a pan until very hot",
+			"Fry donuts in Crisco, moving constantly to prevent sticking",
+			"Remove donuts when they have risen and are golden brown, and place on paper towel to absorb excess oil"
+		],
+		"name" : "Cake Donuts",
+		"tags" : 
+		[
+			"Dessert",
+			"Vegetarian"
+		]
+	},
+	{
+		"ingredients" : 
+		[
+			{
 				"name" : "Soy Sauce",
 				"quantity" : "1/3 cup"
 			},
@@ -493,190 +296,6 @@
 		"ingredients" : 
 		[
 			{
-				"name" : "Split Peas",
-				"quantity" : "2 cups"
-			},
-			{
-				"name" : "Water",
-				"quantity" : "2 quarts"
-			},
-			{
-				"name" : "Celery",
-				"quantity" : "2 stalks"
-			},
-			{
-				"name" : "Carrot",
-				"quantity" : "2"
-			},
-			{
-				"name" : "Onion",
-				"quantity" : "1"
-			},
-			{
-				"name" : "Thyme",
-				"quantity" : "1/4 tsp"
-			},
-			{
-				"name" : "Marjoram",
-				"quantity" : "1/4 tsp"
-			},
-			{
-				"name" : "Cayenne",
-				"quantity" : "1 dash"
-			},
-			{
-				"name" : "Bay Leaf",
-				"quantity" : "1"
-			}
-		],
-		"instructions" : 
-		[
-			"Mix all ingredients together",
-			"Cover and cook slowly for about 1 hour, until peas are very soft",
-			"Force through coarse sieve",
-			"Return to heat and bring to a boil"
-		],
-		"name" : "Split Pea Soup",
-		"tags" : 
-		[
-			"Vegan",
-			"Safe",
-			"Dinner",
-			"Soup",
-			"Comfort"
-		]
-	},
-	{
-		"ingredients" : 
-		[
-			{
-				"name" : "Potato",
-				"quantity" : "2 lbs"
-			},
-			{
-				"name" : "Olive Oil",
-				"quantity" : "2 tbsp"
-			},
-			{
-				"name" : "Garlic Powder",
-				"quantity" : "1 tsp"
-			},
-			{
-				"name" : "Paprika",
-				"quantity" : "1/2 tsp"
-			},
-			{
-				"name" : "Rosemary",
-				"quantity" : "3/4 tbsp"
-			},
-			{
-				"name" : "Parsley",
-				"quantity" : "3/4 tbsp"
-			},
-			{
-				"name" : "Thyme",
-				"quantity" : "3/4 tbsp"
-			},
-			{
-				"name" : "Basil",
-				"quantity" : "3/4 tbsp"
-			}
-		],
-		"instructions" : 
-		[
-			"Dice unpeeled potatoes into 1 inch cubes",
-			"Toss potatoes with olive oil, paprika, rosemary, parsley, thyme, basil, and salt, pepper",
-			"Roast on a baking sheet for 30-35 minutes at 425F"
-		],
-		"name" : "Oven Roasted Potatoes",
-		"tags" : 
-		[
-			"Side",
-			"Vegan",
-			"Safe"
-		]
-	},
-	{
-		"ingredients" : 
-		[
-			{
-				"name" : "Lemon Juice",
-				"quantity" : "2 cups"
-			},
-			{
-				"name" : "Sugar",
-				"quantity" : "2 cups"
-			},
-			{
-				"name" : "Water",
-				"quantity" : "1 cup; 1 gallon"
-			}
-		],
-		"instructions" : 
-		[
-			"Mix 1 cup hot water with sugar and stir until dissolved",
-			"Add lemon juice to sugar mixture",
-			"Add cold water to create a total volume of 1 gallon",
-			"Chill"
-		],
-		"name" : "Lemonade",
-		"tags" : 
-		[
-			"Drink",
-			"Safe",
-			"Vegan"
-		]
-	},
-	{
-		"ingredients" : 
-		[
-			{
-				"name" : "Olive Oil",
-				"quantity" : "1/4 cup"
-			},
-			{
-				"name" : "Silken Tofu",
-				"quantity" : "1/4 cup"
-			},
-			{
-				"name" : "Lemon Zest",
-				"quantity" : "1/2 tsp"
-			},
-			{
-				"name" : "Lemon Juice",
-				"quantity" : "2 tbsp"
-			},
-			{
-				"name" : "Dijon Mustard",
-				"quantity" : "2 tsp"
-			},
-			{
-				"name" : "Capers",
-				"quantity" : "2 tsp"
-			},
-			{
-				"name" : "Nutritional Yeast",
-				"quantity" : "2 tsp"
-			}
-		],
-		"instructions" : 
-		[
-			"Puree oil, tofu, lemon zest, lemon juice, mustard, capers, and nutritional yeast in a blender until smooth",
-			"Season with salt and pepper",
-			"Serve over lettuce"
-		],
-		"name" : "Caesar Salad",
-		"tags" : 
-		[
-			"Side",
-			"Safe",
-			"Vegan"
-		]
-	},
-	{
-		"ingredients" : 
-		[
-			{
 				"name" : "Chicken",
 				"quantity" : "2 breasts"
 			},
@@ -708,7 +327,8 @@
 		"instructions" : 
 		[
 			"Halve each chicken breast",
-			"Heat olive oil in a skillet on high heat about 1 minute, then reduce to medium and cook chicken through",
+			"Heat olive oil in a skillet on high heat until very hot, about 1 minute",
+			"Reduce heat to medium and cook chicken through, seasoning both sides generously with salt and pepper",
 			"Set chicken aside",
 			"Melt margarine in the skillet, stir in flour and chicken broth and heat until simmering",
 			"Stir in green onions and chile powder",
@@ -727,107 +347,53 @@
 		"ingredients" : 
 		[
 			{
-				"name" : "Flour",
-				"quantity" : "2.5 cups; 7 tbsp"
-			},
-			{
-				"name" : "Baking Powder",
-				"quantity" : "1 tbsp"
-			},
-			{
-				"name" : "Baking Soda",
-				"quantity" : "1/2 tsp"
-			},
-			{
 				"name" : "Margarine",
-				"quantity" : "4 tbsp; 5 tbsp"
-			},
-			{
-				"name" : "Cashew Milk",
-				"quantity" : "1 cup; 4 cups"
-			},
-			{
-				"name" : "Lemon Juice",
-				"quantity" : "1 tbsp"
-			},
-			{
-				"name" : "Sausage",
-				"quantity" : "1"
-			},
-			{
-				"name" : "Garlic Powder",
-				"quantity" : "to taste"
-			}
-		],
-		"instructions" : 
-		[
-			"Heat 5 tbsp margarine in a pot over medium-high heat, then add 7 tbsp flour and stir until golden brown, about 2 minutes",
-			"Add garlic powder and sausage, and heat until thick",
-			"Slowly stir in cashew milk, bring to a boil, and then reduce heat and stir until gravy thickens",
-			"Season with pepper and salt, and set aside on low heat",
-			"Combine 1 cup cashew milk with lemon juice, and let stand for 10 minutes",
-			"Combine 2.5 cups flour, baking powder, baking soda, and a pinch of salt in a medium bowl",
-			"Add chilled margarine and cut into flour using the back of a fork, until butter is pea sized and mixture is crumbly",
-			"Add lemon juice mixture and combine until dough becomes tacky (not sticky), adding more flour if needed",
-			"Place dough on a floured surgace, patting about 1 inch thick",
-			"Fold dough onto itself 3 times, then flatten to 3/4 inch thick",
-			"Using a 2.5 in. cookie cutter, cut biscuits out WITHOUT TWISTING",
-			"Place biscuits on a greased baking sheet and bake at 425F for 15-18 minutes"
-		],
-		"name" : "Biscuits and Gravy",
-		"tags" : 
-		[
-			"Comfort",
-			"Side",
-			"Safe",
-			"Vegetarian"
-		]
-	},
-	{
-		"ingredients" : 
-		[
-			{
-				"name" : "Sugar",
 				"quantity" : "1 cup"
 			},
 			{
-				"name" : "Salt",
-				"quantity" : "1 teaspoon"
+				"name" : "Sugar",
+				"quantity" : "3/4 cup"
+			},
+			{
+				"name" : "Brown Sugar",
+				"quantity" : "3/4 cup"
+			},
+			{
+				"name" : "Vanilla",
+				"quantity" : "1 tsp"
+			},
+			{
+				"name" : "Water",
+				"quantity" : "1/2 tsp"
 			},
 			{
 				"name" : "Egg",
 				"quantity" : "2"
 			},
 			{
-				"name" : "Nutmeg",
-				"quantity" : "1 teaspoon"
-			},
-			{
-				"name" : "Milk",
-				"quantity" : "3/4 cup"
-			},
-			{
 				"name" : "Flour",
-				"quantity" : "3 cups"
+				"quantity" : "2.25 cup"
 			},
 			{
-				"name" : "Baking Powder",
-				"quantity" : "5 teaspoons"
+				"name" : "Baking Soda",
+				"quantity" : "1 tsp"
 			},
 			{
-				"name" : "Crisco",
-				"quantity" : "2-3 tubs"
+				"name" : "Salt",
+				"quantity" : "1 tsp"
+			},
+			{
+				"name" : "Chocolate Chips",
+				"quantity" : "1 cup"
 			}
 		],
 		"instructions" : 
 		[
-			"Combine all ingredients and mix until combined. Do not overmix!",
-			"Roll dough until 1/2 inch thick, then cut donut shapes out",
-			"Melt Crisco in a pan until very hot",
-			"Fry donuts in Crisco, moving constantly to prevent sticking",
-			"Remove donuts when they have risen and are golden brown, and place on paper towel to absorb excess oil"
+			"Add margarine, sugar, brown sugar, vanilla, and water to mixing bowl and beat till creamy",
+			"Add eggs, flour, baking soda, salt, and chocolate chips and mix thoroughly",
+			"Form dough into balls and bake at 375F for 10-12 minutes"
 		],
-		"name" : "Cake Donuts",
+		"name" : "Chocolate Chip Cookies",
 		"tags" : 
 		[
 			"Dessert",
@@ -838,84 +404,43 @@
 		"ingredients" : 
 		[
 			{
-				"name" : "Margarine",
-				"quantity" : "1/2 cup"
-			},
-			{
-				"name" : "Water",
-				"quantity" : "6 tbsp"
-			},
-			{
-				"name" : "Cocoa Powder",
-				"quantity" : "1/4 cup"
-			},
-			{
-				"name" : "Powdered Sugar",
-				"quantity" : "16 oz"
-			}
-		],
-		"instructions" : 
-		[
-			"Combine water, margarine, and cocoa powder in saucepan and bring to a boil",
-			"Remove from heat and stir in powdered sugar until desired consistency is achieved"
-		],
-		"name" : "Silky Chocolate Frosting",
-		"tags" : 
-		[
-			"Dessert",
-			"Vegan",
-			"Safe"
-		]
-	},
-	{
-		"ingredients" : 
-		[
-			{
-				"name" : "Orange Juice",
-				"quantity" : "3/4 cup"
-			},
-			{
-				"name" : "Soy Sauce",
-				"quantity" : "3 tbsp"
-			},
-			{
-				"name" : "Sriracha",
-				"quantity" : "1 tbsp"
-			},
-			{
-				"name" : "Honey",
-				"quantity" : "1 tbsp"
-			},
-			{
-				"name" : "Sesame Oil",
-				"quantity" : "1 tsp"
-			},
-			{
-				"name" : "Red Pepper Flakes",
-				"quantity" : "1/2 tsp"
+				"name" : "Chicken",
+				"quantity" : "1.25 lbs breasts"
 			},
 			{
 				"name" : "Cornstarch",
-				"quantity" : "1.5 cups"
+				"quantity" : "1/3 cup"
 			},
 			{
-				"name" : "Chicken",
-				"quantity" : "2 lbs breasts"
+				"name" : "Vegetable Oil",
+				"quantity" : "3 tbsp"
 			},
 			{
-				"name" : "Canola Oil",
+				"name" : "Buffalo Hot Sauce",
+				"quantity" : "1/3 cup"
+			},
+			{
+				"name" : "Brown Sugar",
 				"quantity" : "1/2 cup"
+			},
+			{
+				"name" : "Rice Vinegar",
+				"quantity" : "1 tbsp"
+			},
+			{
+				"name" : "Red Pepper Flakes",
+				"quantity" : "1/4 tsp"
 			}
 		],
 		"instructions" : 
 		[
-			"Combine orange juice, soy sauce, sriracha, honey, sesame oil, and red pepper flakes in a small saucepan",
-			"Simmer sauce until thickened, adding cornstarch (about 1 tsp) if needed",
-			"Cut chicken into 1 inch pieces and coat in cornstarch",
-			"Heat canola oil in a skillet until hot, then add chicken and cook through",
-			"Add sauce to chicken and simmer until hot, about 2 minutes"
+			"Place chicken and cornstarch in a large bag and shake to coat",
+			"Heat oil over high heat, then add chicken and cook through",
+			"Place the chicken in a single layer in a 9\"x13\" pan",
+			"Whisk together buffallo sauce, brown sugar, rice vinegar, and red pepper flakes, and pour over chicken",
+			"Bake at 350F for 35 minutes, stirring halfway through"
 		],
-		"name" : "Orange Chicken",
+		"name" : "Firecracker Chicken",
 		"tags" : 
 		[
 			"Asian",
@@ -928,39 +453,99 @@
 		"ingredients" : 
 		[
 			{
-				"name" : "Panko Bread Crumbs",
-				"quantity" : "1.5 cups"
+				"name" : "Vegetable Oil",
+				"quantity" : "1 tbsp; 1 tsp"
 			},
 			{
-				"name" : "Parmesan Cheese",
-				"quantity" : "1.5 cups, grated"
+				"name" : "Broccoli",
+				"quantity" : "1 cup"
 			},
 			{
-				"name" : "Ground Chipotle Pepper",
-				"quantity" : "1/2 tsp"
+				"name" : "Mushroom",
+				"quantity" : "1 cup"
 			},
 			{
-				"name" : "Margarine",
-				"quantity" : "1/4 cup"
+				"name" : "Bell Pepper",
+				"quantity" : "1"
 			},
 			{
 				"name" : "Chicken",
-				"quantity" : "1.5 lbs thighs"
+				"quantity" : "1 lb"
+			},
+			{
+				"name" : "Garlic",
+				"quantity" : "4 cloves"
+			},
+			{
+				"name" : "Chicken Broth",
+				"quantity" : "3/4 cup"
+			},
+			{
+				"name" : "Sugar",
+				"quantity" : "1.5 tsp"
+			},
+			{
+				"name" : "Soy Sauce",
+				"quantity" : "1 tbsp (This isn't very salty. Bump to 2+?)"
+			},
+			{
+				"name" : "Sesame Oil",
+				"quantity" : "2 tsp"
+			},
+			{
+				"name" : "Cornstarch",
+				"quantity" : "2 tsp"
 			}
 		],
 		"instructions" : 
 		[
-			"Mix bread crumbs, cheese, and pepper in a bowl",
-			"Put melted margarine in another bowl, dip chicken in margarine and then coat with crumb mixture",
-			"Place chicken in a greased baking pan and sprinkle with remaining crumbs",
-			"Bake at 400F until cooked through, about 20 minutes"
+			"Heat 1 tsp oil in large pan over high heat",
+			"Add broccoli, mushrooms, and bell pepper to pan, and cook until tender (5-6 minutes)",
+			"Remove vegetables from heat, cover, and set aside",
+			"Add chicken and 1 tbsp oil to pan on high heat",
+			"Cook chicken through, then add garlic and vegetables",
+			"Whisk together chicken broth, sugar, soy sauce, sesame oil, and cornstarch",
+			"Pour sauce over chicken mixture, and simmer until sauce thickens"
 		],
-		"name" : "Spicy Chicken Nuggets",
+		"name" : "Garlic Chicken Stir Fry",
 		"tags" : 
 		[
-			"Spicy",
-			"Comfort",
-			"Dinner"
+			"Asian",
+			"Dinner",
+			"Safe"
+		]
+	},
+	{
+		"ingredients" : 
+		[
+			{
+				"name" : "Broccoli",
+				"quantity" : "1 bunch"
+			},
+			{
+				"name" : "Olive Oil",
+				"quantity" : "2 tbsp"
+			},
+			{
+				"name" : "Garlic",
+				"quantity" : "3 cloves"
+			},
+			{
+				"name" : "Onion Powder",
+				"quantity" : "1 pinch or to taste"
+			}
+		],
+		"instructions" : 
+		[
+			"Toss broccoli florets with olive oil, garlic, salt, and pepper on a baking sheet",
+			"Roast at 450F until edges are crispy, about 20 minutes"
+		],
+		"name" : "Garlic Roasted Broccoli",
+		"tags" : 
+		[
+			"Side",
+			"Safe",
+			"Vegan"
 		]
 	},
 	{
@@ -1037,48 +622,606 @@
 		[
 			{
 				"name" : "Chicken",
-				"quantity" : "1.25 lbs breasts"
+				"quantity" : "3-4 breasts"
 			},
 			{
-				"name" : "Cornstarch",
-				"quantity" : "1/3 cup"
+				"name" : "Corn Starch",
+				"quantity" : "1/3 cup; 2 tbsp"
 			},
 			{
-				"name" : "Vegetable Oil",
-				"quantity" : "3 tbsp"
+				"name" : "Water",
+				"quantity" : "1 cup; 2 tbsp"
 			},
 			{
-				"name" : "Buffalo Hot Sauce",
-				"quantity" : "1/3 cup"
+				"name" : "Sriracha",
+				"quantity" : "2-3 tbsp"
 			},
 			{
-				"name" : "Brown Sugar",
-				"quantity" : "1/2 cup"
+				"name" : "Soy Sauce",
+				"quantity" : "5 tbsp"
 			},
 			{
-				"name" : "Rice Vinegar",
+				"name" : "Garlic",
 				"quantity" : "1 tbsp"
 			},
 			{
+				"name" : "Sugar",
+				"quantity" : "1/4 cup"
+			},
+			{
+				"name" : "Honey",
+				"quantity" : "2-3 tbsp"
+			},
+			{
 				"name" : "Red Pepper Flakes",
-				"quantity" : "1/4 tsp"
+				"quantity" : "To taste"
 			}
 		],
 		"instructions" : 
 		[
-			"Place chicken and cornstarch in a large bag and shake to coat",
-			"Heat oil over high heat, then add chicken and cook through",
-			"Place the chicken in a single layer in a 9\"x13\" pan",
-			"Whisk together buffallo sauce, brown sugar, rice vinegar, and red pepper flakes, and pour over chicken",
-			"Bake at 350F for 35 minutes, stirring halfway through"
+			"Combine water, sriracha, soy sauce, garlic, sugar, and honey in a saucepan, and bring to boil",
+			"Whisk together 2 tbsp cornstarch and 2 tbsp water until dissolved, and add to saucepan. Reduce to low heat",
+			"Dice chicken and coat in cornstarch",
+			"Heat oil in a skillet, and sautee coated chicken",
+			"Combine chicken and sauce, and add red peppers to taste"
 		],
-		"name" : "Firecracker Chicken",
+		"name" : "Honey Sriracha Chicken",
+		"tags" : 
+		[
+			"Asian",
+			"Dinner",
+			"Spicy",
+			"Safe"
+		]
+	},
+	{
+		"ingredients" : 
+		[
+			{
+				"name" : "Margarine",
+				"quantity" : "1/2 cup"
+			},
+			{
+				"name" : "Powdered Sugar",
+				"quantity" : "1/4 cup"
+			},
+			{
+				"name" : "Flour",
+				"quantity" : "1 cup; 2 tbsp"
+			},
+			{
+				"name" : "Egg",
+				"quantity" : "2"
+			},
+			{
+				"name" : "Baking Powder",
+				"quantity" : "1/2 tsp"
+			},
+			{
+				"name" : "Sugar",
+				"quantity" : "1 cup"
+			},
+			{
+				"name" : "Lemon Juice",
+				"quantity" : "4.5 tsp"
+			},
+			{
+				"name" : "Lemon Zest",
+				"quantity" : "1.5 rind"
+			}
+		],
+		"instructions" : 
+		[
+			"Mix margarine, powdered sugar, and 1 cup flour",
+			"Pat into 8x8 pan and bake until at 350F until edges brown, about 20 minutes",
+			"Mix eggs, 2 tbsp flour, baking power, sugar, lemon juice, and lemon rind and pour onto crust",
+			"Bake for 25 more minutes at 350F, careful not to let the topping brown"
+		],
+		"name" : "Lemon Bars",
+		"tags" : 
+		[
+			"Dessert",
+			"Vegetarian"
+		]
+	},
+	{
+		"ingredients" : 
+		[
+			{
+				"name" : "Margarine",
+				"quantity" : "1/3 cup"
+			},
+			{
+				"name" : "Lemon Juice",
+				"quantity" : "1/4 cup"
+			},
+			{
+				"name" : "Garlic",
+				"quantity" : "5 cloves"
+			},
+			{
+				"name" : "Salmon",
+				"quantity" : "2 lb"
+			},
+			{
+				"name" : "Lemon Slice",
+				"quantity" : "As desired"
+			},
+			{
+				"name" : "Parsley",
+				"quantity" : "1 tbsp; 1 tbsp"
+			},
+			{
+				"name" : "Dill",
+				"quantity" : "1 tsp"
+			}
+		],
+		"instructions" : 
+		[
+			"Line baking sheet with a large piece of foil, big enough to fold over to cover salmon",
+			"Melt margarine over medium-low heat, then add garlic and cook 1 minute",
+			"Remove from heat, then add lemon juice and brown sugar",
+			"Place salmon on the lined baking sheet, season with salt and pepper, and sprinkle with 1 tbsp parsley and dill",
+			"Arrange lemon slices on top of the salmon",
+			"Fold the foil over the salmon to completely cover and seal it",
+			"Bake at 375F for 12-15 minutes until done",
+			"Broil for 2-3 minutes on medium heat",
+			"Garnish with 1 tbsp parsley"
+		],
+		"name" : "Lemon Butter Garlic Salmon",
+		"tags" : 
+		[
+			"Fish",
+			"Dinner",
+			"Safe"
+		]
+	},
+	{
+		"ingredients" : 
+		[
+			{
+				"name" : "Lemon Juice",
+				"quantity" : "2 cups"
+			},
+			{
+				"name" : "Sugar",
+				"quantity" : "2 cups"
+			},
+			{
+				"name" : "Water",
+				"quantity" : "1 cup; 1 gallon"
+			}
+		],
+		"instructions" : 
+		[
+			"Mix 1 cup hot water with sugar and stir until dissolved",
+			"Add lemon juice to sugar mixture",
+			"Add cold water to create a total volume of 1 gallon",
+			"Chill"
+		],
+		"name" : "Lemonade",
+		"tags" : 
+		[
+			"Drink",
+			"Safe",
+			"Vegan"
+		]
+	},
+	{
+		"ingredients" : 
+		[
+			{
+				"name" : "Sugar",
+				"quantity" : "2.25 cups"
+			},
+			{
+				"name" : "Margarine",
+				"quantity" : "1/4 cup"
+			},
+			{
+				"name" : "Evaporated Milk",
+				"quantity" : "3/4 cup"
+			},
+			{
+				"name" : "Marshmallow Cream",
+				"quantity" : "5 ounces"
+			},
+			{
+				"name" : "Chocolate Chips",
+				"quantity" : "1 cup"
+			}
+		],
+		"instructions" : 
+		[
+			"Mix sugar, margarine, and evaporated milk over medium heat until sugar dissolves",
+			"Boil for 5 minutes, stirring constantly",
+			"Remove pan from heat and add marshmallow cream and chocolate chips",
+			"Stir until chocolate is dissolved",
+			"Pour into greased pan and let cool in refrigerator"
+		],
+		"name" : "Marshmallow Fudge",
+		"tags" : 
+		[
+			"Dessert",
+			"Vegetarian"
+		]
+	},
+	{
+		"ingredients" : 
+		[
+			{
+				"name" : "Orange Juice",
+				"quantity" : "3/4 cup"
+			},
+			{
+				"name" : "Soy Sauce",
+				"quantity" : "3 tbsp"
+			},
+			{
+				"name" : "Sriracha",
+				"quantity" : "1 tbsp"
+			},
+			{
+				"name" : "Honey",
+				"quantity" : "1 tbsp"
+			},
+			{
+				"name" : "Sesame Oil",
+				"quantity" : "1 tsp"
+			},
+			{
+				"name" : "Red Pepper Flakes",
+				"quantity" : "1/2 tsp"
+			},
+			{
+				"name" : "Cornstarch",
+				"quantity" : "1.5 cups"
+			},
+			{
+				"name" : "Chicken",
+				"quantity" : "2 lbs breasts"
+			},
+			{
+				"name" : "Canola Oil",
+				"quantity" : "1/2 cup"
+			}
+		],
+		"instructions" : 
+		[
+			"Combine orange juice, soy sauce, sriracha, honey, sesame oil, and red pepper flakes in a small saucepan",
+			"Simmer sauce until thickened, adding cornstarch (about 1 tsp) if needed",
+			"Cut chicken into 1 inch pieces and coat in cornstarch",
+			"Heat canola oil in a skillet until hot, then add chicken and cook through",
+			"Add sauce to chicken and simmer until hot, about 2 minutes"
+		],
+		"name" : "Orange Chicken",
 		"tags" : 
 		[
 			"Asian",
 			"Spicy",
 			"Dinner",
 			"Safe"
+		]
+	},
+	{
+		"ingredients" : 
+		[
+			{
+				"name" : "Potato",
+				"quantity" : "2 lbs"
+			},
+			{
+				"name" : "Olive Oil",
+				"quantity" : "2 tbsp"
+			},
+			{
+				"name" : "Garlic Powder",
+				"quantity" : "1 tsp"
+			},
+			{
+				"name" : "Paprika",
+				"quantity" : "1/2 tsp"
+			},
+			{
+				"name" : "Rosemary",
+				"quantity" : "3/4 tbsp"
+			},
+			{
+				"name" : "Parsley",
+				"quantity" : "3/4 tbsp"
+			},
+			{
+				"name" : "Thyme",
+				"quantity" : "3/4 tbsp"
+			},
+			{
+				"name" : "Basil",
+				"quantity" : "3/4 tbsp"
+			}
+		],
+		"instructions" : 
+		[
+			"Dice unpeeled potatoes into 1 inch cubes",
+			"Toss potatoes with olive oil, paprika, rosemary, parsley, thyme, basil, and salt, pepper",
+			"Roast on a baking sheet for 30-35 minutes at 425F"
+		],
+		"name" : "Oven Roasted Potatoes",
+		"tags" : 
+		[
+			"Side",
+			"Vegan",
+			"Safe"
+		]
+	},
+	{
+		"ingredients" : 
+		[
+			{
+				"name" : "Soy Sauce",
+				"quantity" : "1/4 cup; 1 tbsp"
+			},
+			{
+				"name" : "Olive Oil",
+				"quantity" : "1/4 cup"
+			},
+			{
+				"name" : "Lime Juice",
+				"quantity" : "1/2 cup; 1 lime"
+			},
+			{
+				"name" : "Brown Sugar",
+				"quantity" : "1 tbsp; 1 tbsp"
+			},
+			{
+				"name" : "Chicken",
+				"quantity" : "1 lb breast"
+			},
+			{
+				"name" : "Cabbage",
+				"quantity" : "4 cups, shredded"
+			},
+			{
+				"name" : "Red Pepper",
+				"quantity" : "1"
+			},
+			{
+				"name" : "Carrot",
+				"quantity" : "3"
+			},
+			{
+				"name" : "Green Onion",
+				"quantity" : "2"
+			},
+			{
+				"name" : "Cilantro",
+				"quantity" : "1/4 cup"
+			},
+			{
+				"name" : "Peanuts",
+				"quantity" : "1/4 cup"
+			},
+			{
+				"name" : "Peanut Butter",
+				"quantity" : "1/3 cup"
+			},
+			{
+				"name" : "Garlic",
+				"quantity" : "1 clove"
+			},
+			{
+				"name" : "Red Pepper Flakes",
+				"quantity" : "2 tsp"
+			},
+			{
+				"name" : "Rice Vinegar",
+				"quantity" : "2 tbsp"
+			},
+			{
+				"name" : "Water",
+				"quantity" : "1/4 cup"
+			}
+		],
+		"instructions" : 
+		[
+			"Whisk 1/4 cup soy sauce, olive oil, 1/2 cup lime juice, and 1 tbsp brown sugar together",
+			"Marinate chicken in soy sauce mixture for 30 minutes",
+			"Bake marinated chicken at 400F until cooked through, about 20 minutes",
+			"Combine shredded cabbage, red pepper, carrots, green onion, cilantro, and peanuts in a large bowl",
+			"In a small bowl, whisk together peanut butter, garlic, red pepper flakes,  1 tbsp soy sauce, vinegar, 1 tbsp brown sugar, and 1 lime's lime juice until smooth",
+			"Add water to dressing until at desired consistency",
+			"Shred chicken, toss with salad and dressing, and serve cold"
+		],
+		"name" : "Peanut Chicken Salad",
+		"tags" : 
+		[
+			"Asian",
+			"Spicy",
+			"Dinner",
+			"Safe"
+		]
+	},
+	{
+		"ingredients" : 
+		[
+			{
+				"name" : "Margarine",
+				"quantity" : "1/2 cup"
+			},
+			{
+				"name" : "Water",
+				"quantity" : "6 tbsp"
+			},
+			{
+				"name" : "Cocoa Powder",
+				"quantity" : "1/4 cup"
+			},
+			{
+				"name" : "Powdered Sugar",
+				"quantity" : "16 oz"
+			}
+		],
+		"instructions" : 
+		[
+			"Combine water, margarine, and cocoa powder in saucepan and bring to a boil",
+			"Remove from heat and stir in powdered sugar until desired consistency is achieved"
+		],
+		"name" : "Silky Chocolate Frosting",
+		"tags" : 
+		[
+			"Dessert",
+			"Vegan",
+			"Safe"
+		]
+	},
+	{
+		"ingredients" : 
+		[
+			{
+				"name" : "Panko Bread Crumbs",
+				"quantity" : "1.5 cups"
+			},
+			{
+				"name" : "Parmesan Cheese",
+				"quantity" : "1.5 cups, grated"
+			},
+			{
+				"name" : "Ground Chipotle Pepper",
+				"quantity" : "1/2 tsp"
+			},
+			{
+				"name" : "Margarine",
+				"quantity" : "1/4 cup"
+			},
+			{
+				"name" : "Chicken",
+				"quantity" : "1.5 lbs thighs"
+			}
+		],
+		"instructions" : 
+		[
+			"Mix bread crumbs, cheese, and pepper in a bowl",
+			"Put melted margarine in another bowl, dip chicken in margarine and then coat with crumb mixture",
+			"Place chicken in a greased baking pan and sprinkle with remaining crumbs",
+			"Bake at 400F until cooked through, about 20 minutes"
+		],
+		"name" : "Spicy Chicken Nuggets",
+		"tags" : 
+		[
+			"Spicy",
+			"Comfort",
+			"Dinner"
+		]
+	},
+	{
+		"ingredients" : 
+		[
+			{
+				"name" : "Split Peas",
+				"quantity" : "2 cups"
+			},
+			{
+				"name" : "Water",
+				"quantity" : "2 quarts"
+			},
+			{
+				"name" : "Celery",
+				"quantity" : "2 stalks"
+			},
+			{
+				"name" : "Carrot",
+				"quantity" : "2"
+			},
+			{
+				"name" : "Onion",
+				"quantity" : "1"
+			},
+			{
+				"name" : "Thyme",
+				"quantity" : "1/4 tsp"
+			},
+			{
+				"name" : "Marjoram",
+				"quantity" : "1/4 tsp"
+			},
+			{
+				"name" : "Cayenne",
+				"quantity" : "1 dash"
+			},
+			{
+				"name" : "Bay Leaf",
+				"quantity" : "1"
+			}
+		],
+		"instructions" : 
+		[
+			"Mix all ingredients together",
+			"Cover and cook slowly for about 1 hour, until peas are very soft",
+			"Force through coarse sieve",
+			"Return to heat and bring to a boil"
+		],
+		"name" : "Split Pea Soup",
+		"tags" : 
+		[
+			"Vegan",
+			"Safe",
+			"Dinner",
+			"Soup",
+			"Comfort"
+		]
+	},
+	{
+		"ingredients" : 
+		[
+			{
+				"name" : "Olive Oil",
+				"quantity" : "2 tbsp"
+			},
+			{
+				"name" : "Margarine",
+				"quantity" : "1 tbsp"
+			},
+			{
+				"name" : "Shallot",
+				"quantity" : "1/2 cup"
+			},
+			{
+				"name" : "Chicken Stock",
+				"quantity" : "3.5 cups"
+			},
+			{
+				"name" : "Couscous",
+				"quantity" : "2 cups"
+			},
+			{
+				"name" : "Peas",
+				"quantity" : "12 oz"
+			},
+			{
+				"name" : "Mint",
+				"quantity" : "1/2 cup"
+			},
+			{
+				"name" : "Pine Nuts",
+				"quantity" : "1/3 cup"
+			}
+		],
+		"instructions" : 
+		[
+			"Heat oil and margarine over medium heat in large saucepan",
+			"Add shallots and cook over medium heat for 4 minutes",
+			"Add stock and bring to boil",
+			"Add couscous, 1 tsp salt, and 1/2 tsp pepper and cover",
+			"Steam off heat for 10 minutes",
+			"Toast pine nutes in a small skillet over medium heat until browned",
+			"Stir in peas, shredded mint, and toasted pine nuts"
+		],
+		"name" : "Couscous with Peas and Mint",
+		"tags" : 
+		[
+			"Side",
+			"Safe",
+			"Vegetarian",
+			"Comfort"
 		]
 	}
 ]
