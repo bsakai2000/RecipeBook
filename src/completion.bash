@@ -10,7 +10,7 @@ _recipeBook()
 		1 ) ;;
 		# If we have 2, give our first level menu options
 		2 )
-			COMPREPLY=($(compgen -W "list recipe search" "${COMP_WORDS[1]}"))
+			COMPREPLY=($(compgen -W "add list recipe search" "${COMP_WORDS[1]}"))
 			;;
 		# If we have 3, give second level menu options based on first level menu
 		3 )
