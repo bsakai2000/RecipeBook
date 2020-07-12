@@ -348,7 +348,7 @@ int main(int argc, char* argv[])
 			std::vector<std::string> instructions = recipe->get_instructions();
 			for(size_t i = 0; i < instructions.size(); ++i)
 			{
-				printf("%3ld. %s\n", i, instructions[i].c_str());
+				printf("%3zu. %s\n", i, instructions[i].c_str());
 			}
 		}
 	}

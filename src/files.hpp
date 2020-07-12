@@ -4,6 +4,7 @@
 #include <string>
 #include <cstdio>
 #include <vector>
+#include <sstream>
 #include <json/reader.h>
 #include <json/writer.h>
 
