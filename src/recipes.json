@@ -233,6 +233,55 @@
 		"ingredients" : 
 		[
 			{
+				"name" : "Olive Oil",
+				"quantity" : "3 tbsp; As needed"
+			},
+			{
+				"name" : "Onion",
+				"quantity" : "1 cup"
+			},
+			{
+				"name" : "Garlic",
+				"quantity" : "2 cloves"
+			},
+			{
+				"name" : "Cherry Tomato",
+				"quantity" : "2 cups"
+			},
+			{
+				"name" : "Balsamic Vinegar",
+				"quantity" : "1.5 tbsp"
+			},
+			{
+				"name" : "Basil",
+				"quantity" : "1.5 tbsp leaves"
+			},
+			{
+				"name" : "Salmon",
+				"quantity" : "2 lb"
+			}
+		],
+		"instructions" : 
+		[
+			"Heat 3 tbsp olive oil in medium skillet",
+			"Add chopped onion and saute over medium heat until tender, about 5 minutes",
+			"Add garlic and sautee 1 more minute",
+			"Stir in tomates, 1 tsp salt, and 1/2 tsp pepper and cook over medium heat until liquid thickens, about 10 minutes",
+			"Remove from heat and add vinegar and julienned basil",
+			"Brush salmon with olive oil, season with salt and pepper, and bake at 450F until cooked through, about 12 minutes"
+		],
+		"name" : "Cherry Tomato Salmon",
+		"tags" : 
+		[
+			"Fish",
+			"Dinner",
+			"Safe"
+		]
+	},
+	{
+		"ingredients" : 
+		[
+			{
 				"name" : "Soy Sauce",
 				"quantity" : "1/3 cup"
 			},
@@ -1271,49 +1320,25 @@
 		"ingredients" : 
 		[
 			{
-				"name" : "Olive Oil",
-				"quantity" : "3 tbsp; As needed"
+				"name" : "Hot Dog",
+				"quantity" : "3"
 			},
 			{
-				"name" : "Onion",
-				"quantity" : "1 cup"
-			},
-			{
-				"name" : "Garlic",
-				"quantity" : "2 cloves"
-			},
-			{
-				"name" : "Cherry Tomato",
-				"quantity" : "2 cups"
-			},
-			{
-				"name" : "Balsamic Vinegar",
-				"quantity" : "1.5 tbsp"
-			},
-			{
-				"name" : "Basil",
-				"quantity" : "1.5 tbsp leaves"
-			},
-			{
-				"name" : "Salmon",
-				"quantity" : "2 lb"
+				"name" : "Spaghetti",
+				"quantity" : "One package"
 			}
 		],
 		"instructions" : 
 		[
-			"Heat 3 tbsp olive oil in medium skillet",
-			"Add chopped onion and saute over medium heat until tender, about 5 minutes",
-			"Add garlic and sautee 1 more minute",
-			"Stir in tomates, 1 tsp salt, and 1/2 tsp pepper and cook over medium heat until liquid thickens, about 10 minutes",
-			"Remove from heat and add vinegar and julienned basil",
-			"Brush salmon with olive oil, season with salt and pepper, and bake at 450F until cooked through, about 12 minutes"
+			"Cut hot dogs into cylinders, and poke uncooked spaghetti through hot dog cylinders",
+			"Cook spaghetti per directions on package"
 		],
-		"name" : "Cherry Tomato Salmon",
+		"name" : "Noodle Weenie Dogs",
 		"tags" : 
 		[
-			"Fish",
 			"Dinner",
-			"Safe"
+			"Safe",
+			"Comfort"
 		]
 	}
 ]
