@@ -57,7 +57,7 @@ function print_recipe(text, name)
 			recipe_element.appendChild(recipe_name);
 
 			// Create the ingredients table
-			var ingredient_header = document.createElement("h3");
+			var ingredient_header = document.createElement("h4");
 			ingredient_header.innerHTML = "Ingredients";
 			recipe_element.appendChild(ingredient_header);
 
