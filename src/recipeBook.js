@@ -53,7 +53,7 @@ function print_recipe(text, name)
 			// Create the div for the name of the recipe
 			var recipe_element = document.createElement("div");
 			var recipe_name = document.createElement("h3");
-			recipe_name.innerHTML = "<a href='?recipe=" + recipe.name + "'>" + recipe.name + "</a>";
+			recipe_name.innerHTML = recipe.name;
 			recipe_element.appendChild(recipe_name);
 
 			// Create the ingredients table
@@ -79,7 +79,7 @@ function print_recipe(text, name)
 			recipe_element.appendChild(ingredient_table);
 
 			// Create the Instructions list
-			var instruction_header = document.createElement("h3");
+			var instruction_header = document.createElement("h4");
 			instruction_header.innerHTML = "Instructions";
 			recipe_element.appendChild(instruction_header);
 
@@ -93,7 +93,7 @@ function print_recipe(text, name)
 			recipe_element.appendChild(instruction_list);
 
 			// Create the tags list
-			var tag_header = document.createElement("h3");
+			var tag_header = document.createElement("h4");
 			tag_header.innerHTML = "Tags";
 			recipe_element.appendChild(tag_header);
 
