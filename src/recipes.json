@@ -1099,6 +1099,49 @@
 		"ingredients" : 
 		[
 			{
+				"name" : "Salmon",
+				"quantity" : "2 lb"
+			},
+			{
+				"name" : "Rosemary",
+				"quantity" : "5 sprigs"
+			},
+			{
+				"name" : "Lemon",
+				"quantity" : "2"
+			},
+			{
+				"name" : "Olive Oil",
+				"quantity" : "2 tbsp"
+			},
+			{
+				"name" : "Garlic",
+				"quantity" : "4 cloves"
+			}
+		],
+		"instructions" : 
+		[
+			"Line a baking dish with a large piece of aluminum foil",
+			"Spray the foil with baking spray and place 2 sprigs of rosemary and slices of one lemon along the middle of the foil",
+			"Place salmon in the foil",
+			"Drizzle salmon with olive oil and sprinkle with salt, pepper, and minced garlic, rubbing to coat",
+			"Pour juice of second lemon over salmon",
+			"Fold foil up to create a tent over and around the salmon",
+			"Bake at 375 until cooked through, 15-20 minutes",
+			"Uncover salmon and broil until the top of the salmon becomes golden brown, about 3 minutes"
+		],
+		"name" : "Rosemary Lemon Salmon",
+		"tags" : 
+		[
+			"Dinner",
+			"Fish",
+			"Safe"
+		]
+	},
+	{
+		"ingredients" : 
+		[
+			{
 				"name" : "Margarine",
 				"quantity" : "1/2 cup"
 			},
@@ -1228,42 +1271,48 @@
 		"ingredients" : 
 		[
 			{
-				"name" : "Salmon",
-				"quantity" : "2 lb"
-			},
-			{
-				"name" : "Rosemary",
-				"quantity" : "5 sprigs"
-			},
-			{
-				"name" : "Lemon",
-				"quantity" : "2"
-			},
-			{
 				"name" : "Olive Oil",
-				"quantity" : "2 tbsp"
+				"quantity" : "3 tbsp; As needed"
+			},
+			{
+				"name" : "Onion",
+				"quantity" : "1 cup"
 			},
 			{
 				"name" : "Garlic",
-				"quantity" : "4 cloves"
+				"quantity" : "2 cloves"
+			},
+			{
+				"name" : "Cherry Tomato",
+				"quantity" : "2 cups"
+			},
+			{
+				"name" : "Balsamic Vinegar",
+				"quantity" : "1.5 tbsp"
+			},
+			{
+				"name" : "Basil",
+				"quantity" : "1.5 tbsp leaves"
+			},
+			{
+				"name" : "Salmon",
+				"quantity" : "2 lb"
 			}
 		],
 		"instructions" : 
 		[
-			"Line a baking dish with a large piece of aluminum foil",
-			"Spray the foil with baking spray and place 2 sprigs of rosemary and slices of one lemon along the middle of the foil",
-			"Place salmon in the foil",
-			"Drizzle salmon with olive oil and sprinkle with salt, pepper, and minced garlic, rubbing to coat",
-			"Pour juice of second lemon over salmon",
-			"Fold foil up to create a tent over and around the salmon",
-			"Bake at 375 until cooked through, 15-20 minutes",
-			"Uncover salmon and broil until the top of the salmon becomes golden brown, about 3 minutes"
+			"Heat 3 tbsp olive oil in medium skillet",
+			"Add chopped onion and saute over medium heat until tender, about 5 minutes",
+			"Add garlic and sautee 1 more minute",
+			"Stir in tomates, 1 tsp salt, and 1/2 tsp pepper and cook over medium heat until liquid thickens, about 10 minutes",
+			"Remove from heat and add vinegar and julienned basil",
+			"Brush salmon with olive oil, season with salt and pepper, and bake at 450F until cooked through, about 12 minutes"
 		],
-		"name" : "Rosemary Lemon Salmon",
+		"name" : "Cherry Tomato Salmon",
 		"tags" : 
 		[
-			"Dinner",
 			"Fish",
+			"Dinner",
 			"Safe"
 		]
 	}
