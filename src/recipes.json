@@ -954,6 +954,31 @@
 		"ingredients" : 
 		[
 			{
+				"name" : "Hot Dog",
+				"quantity" : "3"
+			},
+			{
+				"name" : "Spaghetti",
+				"quantity" : "One package"
+			}
+		],
+		"instructions" : 
+		[
+			"Cut hot dogs into 1 inch cylinders, and poke uncooked spaghetti through hot dog cylinders",
+			"Cook hot dogs with spaghetti per directions on spaghetti package"
+		],
+		"name" : "Noodle Weenie Dogs",
+		"tags" : 
+		[
+			"Dinner",
+			"Safe",
+			"Comfort"
+		]
+	},
+	{
+		"ingredients" : 
+		[
+			{
 				"name" : "Orange Juice",
 				"quantity" : "3/4 cup"
 			},
@@ -1320,24 +1345,56 @@
 		"ingredients" : 
 		[
 			{
-				"name" : "Hot Dog",
-				"quantity" : "3"
+				"name" : "Garlic",
+				"quantity" : "4 cloves"
 			},
 			{
-				"name" : "Spaghetti",
-				"quantity" : "One package"
+				"name" : "Thyme",
+				"quantity" : "1 tbsp"
+			},
+			{
+				"name" : "Panko",
+				"quantity" : "2 cups"
+			},
+			{
+				"name" : "Lemon Zest",
+				"quantity" : "1 tbsp"
+			},
+			{
+				"name" : "Olive Oil",
+				"quantity" : "2 tbsp"
+			},
+			{
+				"name" : "Margarine",
+				"quantity" : "2 tbsp"
+			},
+			{
+				"name" : "Dijon Mustard",
+				"quantity" : "1/2 cup"
+			},
+			{
+				"name" : "White Wine",
+				"quantity" : "1/2 cup"
+			},
+			{
+				"name" : "Chicken",
+				"quantity" : "4 lb"
 			}
 		],
 		"instructions" : 
 		[
-			"Cut hot dogs into 1 inch cylinders, and poke uncooked spaghetti through hot dog cylinders",
-			"Cook hot dogs with spaghetti per directions on spaghetti package"
+			"Place garlic, thyme, 2 tbsp salt, and 1 tsp pepper in a food processor and process until finely minced",
+			"Add panko, lemon zest, olive oil, and margarine and pulse to moisten bread flakes",
+			"In a separate bowl, whisk together mustard and wine",
+			"Pat chicken dry with paper towels and sprinkle generously with salt and pepper",
+			"Dip each piece of chicken in mustard mixture to coat completely, then place skin side down in crumb mixture",
+			"Bake chicken crumb side up for 40 minutes at 350F, then raise heat to 400F for another 10 minutes"
 		],
-		"name" : "Noodle Weenie Dogs",
+		"name" : "Mustard Roasted Chicken",
 		"tags" : 
 		[
-			"Dinner",
 			"Safe",
+			"Dinner",
 			"Comfort"
 		]
 	}
