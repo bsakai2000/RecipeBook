@@ -8,7 +8,7 @@
 
 // The name of the default file to look for recipes
 #ifndef RECIPE_BOOK_DEFAULT
-#define RECIPE_BOOK_DEFAULT "./recipes.json"
+#define RECIPE_BOOK_DEFAULT "../recipes.json"
 #endif
 
 // Get the list of recipe names that have all of these tags

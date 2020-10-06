@@ -1,6 +1,8 @@
 # RecipeBook
 Read and explore JSON-encoded recipes
 
+The web frontend is in src/website, the C++ app is in src/app
+
 Usage is as follows:
 ```
 ./recipeBook add
