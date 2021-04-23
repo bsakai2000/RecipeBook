@@ -3,6 +3,123 @@
 		"ingredients" : 
 		[
 			{
+				"name" : "Apple",
+				"quantity" : "4 cups"
+			},
+			{
+				"name" : "Water",
+				"quantity" : "1/4 cup"
+			},
+			{
+				"name" : "Flour",
+				"quantity" : "3/4 cup"
+			},
+			{
+				"name" : "Sugar",
+				"quantity" : "1/2 cup"
+			},
+			{
+				"name" : "Brown Sugar",
+				"quantity" : "1/2 cup"
+			},
+			{
+				"name" : "Cinnamon",
+				"quantity" : "3 tsp"
+			},
+			{
+				"name" : "Salt",
+				"quantity" : "1/2 tsp"
+			},
+			{
+				"name" : "Margarine",
+				"quantity" : "1/3 cup"
+			}
+		],
+		"instructions" : 
+		[
+			"Peel and slice apples",
+			"Combine apples and water in a pan",
+			"Sift together dry ingredients",
+			"Cut in margarine until mixture is crumbly",
+			"Sprinkle mixture over apples",
+			"Bake for 40 minutes at 350F"
+		],
+		"name" : "Apple Crisp",
+		"tags" : 
+		[
+			"Dessert",
+			"Safe",
+			"Vegan",
+			"Vegetarian"
+		]
+	},
+	{
+		"ingredients" : 
+		[
+			{
+				"name" : "Tortilla",
+				"quantity" : "6"
+			},
+			{
+				"name" : "Olive Oil",
+				"quantity" : "2 tsp"
+			},
+			{
+				"name" : "Mozarella Cheese",
+				"quantity" : "3/4 cup"
+			},
+			{
+				"name" : "Chicken Breast",
+				"quantity" : "2 cups"
+			},
+			{
+				"name" : "Diced Tomatoes with Green Chilies",
+				"quantity" : "1 can"
+			},
+			{
+				"name" : "Garlic Powder",
+				"quantity" : "1 tsp"
+			},
+			{
+				"name" : "Onion Powder",
+				"quantity" : "1 tsb"
+			},
+			{
+				"name" : "Ground Cumin",
+				"quantity" : "1 tsb"
+			},
+			{
+				"name" : "Salt",
+				"quantity" : "1/4 tsp"
+			},
+			{
+				"name" : "Pepper",
+				"quantity" : "1/4 tsp"
+			},
+			{
+				"name" : "Cabbage",
+				"quantity" : "1/2 cup"
+			}
+		],
+		"instructions" : 
+		[
+			"Chop chicken, combine with tomatoes (including liquid) and seasonings in a skillet",
+			"Cook and stir until most of the liquid is evaporated, 6-8 minutes",
+			"Brush tortillas with oil and sprinkle with cheese",
+			"Put chicken mixture on top of tortillas, then cook at 350F until tortillas are crips and cheese is melted, 15-18 minutes",
+			"Top with cabbage and serve"
+		],
+		"name" : "Baked Chicken Chalupas",
+		"tags" : 
+		[
+			"Dinner",
+			"Safe"
+		]
+	},
+	{
+		"ingredients" : 
+		[
+			{
 				"name" : "Flour",
 				"quantity" : "2.5 cups; 7 tbsp"
 			},
@@ -32,7 +149,7 @@
 			},
 			{
 				"name" : "Garlic Powder",
-				"quantity" : "to taste"
+				"quantity" : "To taste"
 			}
 		],
 		"instructions" : 
@@ -136,46 +253,109 @@
 		"ingredients" : 
 		[
 			{
+				"name" : "Worcestershire Sauce",
+				"quantity" : "A few drops"
+			},
+			{
 				"name" : "Olive Oil",
-				"quantity" : "1/4 cup"
+				"quantity" : "1/2 cup"
 			},
 			{
-				"name" : "Silken Tofu",
-				"quantity" : "1/4 cup"
-			},
-			{
-				"name" : "Lemon Zest",
-				"quantity" : "1/2 tsp"
-			},
-			{
-				"name" : "Lemon Juice",
-				"quantity" : "2 tbsp (This was too much last time)"
-			},
-			{
-				"name" : "Dijon Mustard",
+				"name" : "Anchovy Paste",
 				"quantity" : "2 tsp"
 			},
 			{
-				"name" : "Capers",
-				"quantity" : "2 tsp"
+				"name" : "Poupon",
+				"quantity" : "1 tsp"
 			},
 			{
-				"name" : "Nutritional Yeast",
-				"quantity" : "2 tsp"
+				"name" : "White Wine Vinegar",
+				"quantity" : "3 tbsp"
 			}
 		],
 		"instructions" : 
 		[
-			"Puree oil, tofu, lemon zest, lemon juice, mustard, capers, and nutritional yeast in a blender until smooth",
-			"Season with salt and pepper",
-			"Serve over lettuce"
+			"Combine all ingredients and mix thoroughly",
+			"Serve over lettuce with croutons"
 		],
-		"name" : "Caesar Salad",
+		"name" : "Caesar Salad Dressing",
 		"tags" : 
 		[
 			"Side",
-			"Safe",
-			"Vegan"
+			"Safe"
+		]
+	},
+	{
+		"ingredients" : 
+		[
+			{
+				"name" : "Chicken",
+				"quantity" : "3-4 lbs (bone-in)"
+			},
+			{
+				"name" : "Cayenne Pepper",
+				"quantity" : "1 tsp"
+			},
+			{
+				"name" : "Salt",
+				"quantity" : "3/4 tsp"
+			},
+			{
+				"name" : "Canola Oil",
+				"quantity" : "3 tbsp"
+			},
+			{
+				"name" : "Sausage",
+				"quantity" : "14 oz"
+			},
+			{
+				"name" : "Sweet Onion",
+				"quantity" : "1"
+			},
+			{
+				"name" : "Green Pepper",
+				"quantity" : "1"
+			},
+			{
+				"name" : "Celery",
+				"quantity" : "1 rib"
+			},
+			{
+				"name" : "Garlic",
+				"quantity" : "2 cloves"
+			},
+			{
+				"name" : "Diced Tomatoes",
+				"quantity" : "2 cans"
+			},
+			{
+				"name" : "Diced Tomatoes with Green Chilies",
+				"quantity" : "1 can"
+			},
+			{
+				"name" : "Spaghetti",
+				"quantity" : "16 oz"
+			}
+		],
+		"instructions" : 
+		[
+			"Chop chicken, sprinkle with cayenne and salt, and brown in pan over medium-high heat",
+			"Add sliced sausage, chopped onion, chopped green pepper, and chopped celery to same pan. Cook over medium heat for 3 minutes",
+			"Add garlic to pan, and cook for 1 additional minute",
+			"Add tomatoes and chicken to pan, and bring to a boil",
+			"Reduce heat and simmer while covered for 1 hour",
+			"Cook spaghetti according to instructions",
+			"Remove chicken from pan, shred meat with fork, and return to pan",
+			"Simmer for 8-10 minutes uncovered",
+			"Skim fat, then serve with spaghetti"
+		],
+		"name" : "Cajun Chicken and Spaghetti",
+		"tags" : 
+		[
+			"Dinner",
+			"Spicy",
+			"Comfort",
+			"Safe"
 		]
 	},
 	{
@@ -319,11 +499,11 @@
 			},
 			{
 				"name" : "Sesame Seeds",
-				"quantity" : "to taste"
+				"quantity" : "To taste"
 			},
 			{
 				"name" : "Green Onion",
-				"quantity" : "to taste"
+				"quantity" : "To taste"
 			}
 		],
 		"instructions" : 
@@ -508,49 +688,48 @@
 		"ingredients" : 
 		[
 			{
-				"name" : "Chicken",
-				"quantity" : "1.25 lbs breasts"
+				"name" : "Chili Garlic Sauce",
+				"quantity" : "1/4 cup"
 			},
 			{
-				"name" : "Cornstarch",
-				"quantity" : "1/3 cup"
-			},
-			{
-				"name" : "Vegetable Oil",
-				"quantity" : "3 tbsp"
-			},
-			{
-				"name" : "Buffalo Hot Sauce",
-				"quantity" : "1/3 cup"
+				"name" : "Soy Sauce",
+				"quantity" : "1/4 cup"
 			},
 			{
 				"name" : "Brown Sugar",
-				"quantity" : "1/2 cup"
+				"quantity" : "1/4 cup"
 			},
 			{
-				"name" : "Rice Vinegar",
-				"quantity" : "1 tbsp"
+				"name" : "Ground Pork",
+				"quantity" : "1/2 lb"
 			},
 			{
-				"name" : "Red Pepper Flakes",
-				"quantity" : "1/4 tsp"
+				"name" : "Ramen",
+				"quantity" : "6 oz"
+			},
+			{
+				"name" : "Green Onion",
+				"quantity" : "3"
+			},
+			{
+				"name" : "Peanuts",
+				"quantity" : "1/4 cup"
 			}
 		],
 		"instructions" : 
 		[
-			"Place chicken and cornstarch in a large bag and shake to coat",
-			"Heat oil over high heat, then add chicken and cook through",
-			"Place the chicken in a single layer in a 9\"x13\" pan",
-			"Whisk together buffallo sauce, brown sugar, rice vinegar, and red pepper flakes, and pour over chicken",
-			"Bake at 350F for 35 minutes, stirring halfway through"
+			"Combine chili garlic sauce, soy sauce, and brown sugar into a bowl",
+			"Cook pork in a skillet until browned",
+			"Add sauce mixture and chopped peanuts to skillet and simmer for 5 minutes",
+			"Cook ramen noodles according to instructions",
+			"Toss noodles and sauce, garnish with green onions"
 		],
-		"name" : "Firecracker Chicken",
+		"name" : "Dragon Noodles",
 		"tags" : 
 		[
-			"Asian",
-			"Spicy",
 			"Dinner",
-			"Safe"
+			"Asian",
+			"Spicy"
 		]
 	},
 	{
@@ -649,76 +828,8 @@
 		[
 			"Side",
 			"Safe",
-			"Vegan"
-		]
-	},
-	{
-		"ingredients" : 
-		[
-			{
-				"name" : "Chicken",
-				"quantity" : "4 thighs"
-			},
-			{
-				"name" : "Cornstarch",
-				"quantity" : "1/4 cup; 1 tbsp"
-			},
-			{
-				"name" : "Vegetable Oil",
-				"quantity" : "2 tbsp; 1 tbsp"
-			},
-			{
-				"name" : "Garlic",
-				"quantity" : "2 cloves"
-			},
-			{
-				"name" : "Red Pepper Flakes",
-				"quantity" : "3/4 tsp"
-			},
-			{
-				"name" : "Chicken Broth",
-				"quantity" : "3/4 cup"
-			},
-			{
-				"name" : "Hoisin Sauce",
-				"quantity" : "2 tbsp"
-			},
-			{
-				"name" : "Honey",
-				"quantity" : "2 tbsp"
-			},
-			{
-				"name" : "Soy Sauce",
-				"quantity" : "1/4 cup"
-			},
-			{
-				"name" : "Lime Juice",
-				"quantity" : "1 tbsp"
-			},
-			{
-				"name" : "Broccoli",
-				"quantity" : "4 cups"
-			}
-		],
-		"instructions" : 
-		[
-			"Add chicken and 1/4 cup cornstarch to large bag and shake to coat",
-			"Heat 2 tbsp oil in a skillet until hot",
-			"Add chicken to skillet and cook through",
-			"Add 1 tbsp oil to skillet, then add garlic and red pepper flakes and cook about 30 seconds",
-			"Add chicken broth to skillet",
-			"Combine hoisin sauce, honey, soy sauce, lime juice, and 1 tbsp cornstarch and mix until combined",
-			"Add sauce mixture to skillet and simmer until thickened",
-			"Add broccoli to skillet and cook until tender, about 5 minutes",
-			"Add chicken to skillet and simmer until warmed through"
-		],
-		"name" : "General Tso's Chicken",
-		"tags" : 
-		[
-			"Asian",
-			"Spicy",
-			"Dinner",
-			"Safe"
+			"Vegan",
+			"Vegetarian"
 		]
 	},
 	{
@@ -908,7 +1019,77 @@
 		[
 			"Drink",
 			"Safe",
-			"Vegan"
+			"Vegan",
+			"Vegetarian"
+		]
+	},
+	{
+		"ingredients" : 
+		[
+			{
+				"name" : "Olive Oil",
+				"quantity" : "1 tbsp"
+			},
+			{
+				"name" : "Ground Chicken",
+				"quantity" : "1 lb"
+			},
+			{
+				"name" : "Garlic",
+				"quantity" : "2 cloves"
+			},
+			{
+				"name" : "Onion",
+				"quantity" : "1"
+			},
+			{
+				"name" : "Hoisin Sauce",
+				"quantity" : "1/4 cup"
+			},
+			{
+				"name" : "Soy Sauce",
+				"quantity" : "2 tbsp"
+			},
+			{
+				"name" : "Rice Vinegar",
+				"quantity" : "1 tbsp"
+			},
+			{
+				"name" : "Ginger",
+				"quantity" : "1 tbsp"
+			},
+			{
+				"name" : "Sriracha",
+				"quantity" : "1 tbsp"
+			},
+			{
+				"name" : "Water Chestnut",
+				"quantity" : "1 can"
+			},
+			{
+				"name" : "Green Onion",
+				"quantity" : "2"
+			},
+			{
+				"name" : "Butter Lettuce",
+				"quantity" : "1 head"
+			}
+		],
+		"instructions" : 
+		[
+			"Brown chicken in skillet and drain excess fat",
+			"Stir in minced garlic, chopped onion, hoisin sauce, soy sauce, rice vinegar, grated ginger, and sriracha",
+			"Cook until onions become translucent, 1-2 minutes",
+			"Add diced water chestnuts and chopped green onion to skillet",
+			"Cook another 1-2 minutes until water chestnuts are tender",
+			"Serve mixture in a leaf of butter lettuce"
+		],
+		"name" : "Lettuce Wraps",
+		"tags" : 
+		[
+			"Dinner",
+			"Asian",
+			"Safe"
 		]
 	},
 	{
@@ -948,6 +1129,63 @@
 		[
 			"Dessert",
 			"Vegetarian"
+		]
+	},
+	{
+		"ingredients" : 
+		[
+			{
+				"name" : "Garlic",
+				"quantity" : "4 cloves"
+			},
+			{
+				"name" : "Thyme",
+				"quantity" : "1 tbsp"
+			},
+			{
+				"name" : "Panko",
+				"quantity" : "2 cups"
+			},
+			{
+				"name" : "Lemon Zest",
+				"quantity" : "1 tbsp"
+			},
+			{
+				"name" : "Olive Oil",
+				"quantity" : "2 tbsp"
+			},
+			{
+				"name" : "Margarine",
+				"quantity" : "2 tbsp"
+			},
+			{
+				"name" : "Dijon Mustard",
+				"quantity" : "1/2 cup"
+			},
+			{
+				"name" : "White Wine",
+				"quantity" : "1/2 cup"
+			},
+			{
+				"name" : "Chicken",
+				"quantity" : "4 lb"
+			}
+		],
+		"instructions" : 
+		[
+			"Place garlic, thyme, 2 tbsp salt, and 1 tsp pepper in a food processor and process until finely minced",
+			"Add panko, lemon zest, olive oil, and margarine and pulse to moisten bread flakes",
+			"In a separate bowl, whisk together mustard and wine",
+			"Pat chicken dry with paper towels and sprinkle generously with salt and pepper",
+			"Dip each piece of chicken in mustard mixture to coat completely, then place skin side down in crumb mixture",
+			"Bake chicken crumb side up for 40 minutes at 350F, then raise heat to 400F for another 10 minutes"
+		],
+		"name" : "Mustard Roasted Chicken",
+		"tags" : 
+		[
+			"Safe",
+			"Dinner",
+			"Comfort"
 		]
 	},
 	{
@@ -1079,6 +1317,7 @@
 		[
 			"Side",
 			"Vegan",
+			"Vegetarian",
 			"Safe"
 		]
 	},
@@ -1216,6 +1455,70 @@
 		"ingredients" : 
 		[
 			{
+				"name" : "Bacon",
+				"quantity" : "8 Slices"
+			},
+			{
+				"name" : "Avocado",
+				"quantity" : "2"
+			},
+			{
+				"name" : "Lime Juice",
+				"quantity" : "1/4 cup"
+			},
+			{
+				"name" : "Scallion",
+				"quantity" : "4"
+			},
+			{
+				"name" : "Red Onion",
+				"quantity" : "1/4 cup"
+			},
+			{
+				"name" : "Jalapeno Pepper",
+				"quantity" : "1 tbsp"
+			},
+			{
+				"name" : "Garlic",
+				"quantity" : "1 tsp"
+			},
+			{
+				"name" : "Salmon",
+				"quantity" : "1.5 lbs"
+			},
+			{
+				"name" : "Ciabatta Roll",
+				"quantity" : "4"
+			},
+			{
+				"name" : "Baby Arugula",
+				"quantity" : "To taste"
+			}
+		],
+		"instructions" : 
+		[
+			"Roast bacon for 15-20 minutes at 400F",
+			"Combine avocado, lime juice, scallions, red onion, jalapeno, garlic, 1 tsp salt, and 1/2 tsp pepper in a mixing bowl and mash with a fork",
+			"Coat salmon on both sides with olive oil, then sprinkle with salt and pepper",
+			"Cook salmon at high heat for 2 minutes, skin side up",
+			"Flip the salmon and cook for 2 additional minutes",
+			"Place salmon on a plate and cover with aluminum foil for 10 minutes",
+			"Cut ciabatta rolls in half, then toast cut side up for 5-10 minutes in the oven",
+			"Each sandwich should be assembled from a ciabatta roll, a salmon filet, 2 slices of bacon, 2 tbsp of guacamole, arugula, and a sprinkling of salt"
+		],
+		"name" : "Salmon and Guacamole Sandwiches",
+		"tags" : 
+		[
+			"Fish",
+			"Safe",
+			"Comfort",
+			"Dinner"
+		]
+	},
+	{
+		"ingredients" : 
+		[
+			{
 				"name" : "Margarine",
 				"quantity" : "1/2 cup"
 			},
@@ -1242,6 +1545,7 @@
 		[
 			"Dessert",
 			"Vegan",
+			"Vegetarian",
 			"Safe"
 		]
 	},
@@ -1335,6 +1639,7 @@
 		"tags" : 
 		[
 			"Vegan",
+			"Vegetarian",
 			"Safe",
 			"Dinner",
 			"Soup",
@@ -1345,55 +1650,130 @@
 		"ingredients" : 
 		[
 			{
-				"name" : "Garlic",
-				"quantity" : "4 cloves"
+				"name" : "Sandwich Bread",
+				"quantity" : "2 loaves"
 			},
 			{
-				"name" : "Thyme",
-				"quantity" : "1 tbsp"
+				"name" : "Potato",
+				"quantity" : "3"
 			},
 			{
-				"name" : "Panko",
-				"quantity" : "2 cups"
+				"name" : "Onion",
+				"quantity" : "2"
 			},
 			{
-				"name" : "Lemon Zest",
-				"quantity" : "1 tbsp"
+				"name" : "Celery",
+				"quantity" : "3 stalks"
 			},
 			{
-				"name" : "Olive Oil",
-				"quantity" : "2 tbsp"
+				"name" : "Egg",
+				"quantity" : "2"
+			},
+			{
+				"name" : "Chicken Broth",
+				"quantity" : "Ask Colleen"
+			},
+			{
+				"name" : "Poultry Seasoning",
+				"quantity" : "To taste"
+			},
+			{
+				"name" : "Sage",
+				"quantity" : "To taste"
 			},
 			{
 				"name" : "Margarine",
 				"quantity" : "2 tbsp"
-			},
-			{
-				"name" : "Dijon Mustard",
-				"quantity" : "1/2 cup"
-			},
-			{
-				"name" : "White Wine",
-				"quantity" : "1/2 cup"
-			},
-			{
-				"name" : "Chicken",
-				"quantity" : "4 lb"
 			}
 		],
 		"instructions" : 
 		[
-			"Place garlic, thyme, 2 tbsp salt, and 1 tsp pepper in a food processor and process until finely minced",
-			"Add panko, lemon zest, olive oil, and margarine and pulse to moisten bread flakes",
-			"In a separate bowl, whisk together mustard and wine",
-			"Pat chicken dry with paper towels and sprinkle generously with salt and pepper",
-			"Dip each piece of chicken in mustard mixture to coat completely, then place skin side down in crumb mixture",
-			"Bake chicken crumb side up for 40 minutes at 350F, then raise heat to 400F for another 10 minutes"
+			"Dice celery and onions, and sautee one day prior. Save celery leaves",
+			"Peel, boil, and cube the potatoes. Set aside some potato water",
+			"Cube the sandwich loaf and roast at 250F until crisp on the outside, but still soft inside",
+			"Combine bread, potatoes, onions, celery, and leaves",
+			"Add eggs, potato water, chicken broth, poultry seasoning, salt, pepper, and sage",
+			"Stir and adjust seasonings to taste (should look greenish from the seasonings)",
+			"Coat a baking dish with margarine and add stuffing. Add 2 tbsp margarine on top",
+			"Cover with foil and bake for 1 hr at 350F, uncovering for the last 10 minutes"
 		],
-		"name" : "Mustard Roasted Chicken",
+		"name" : "Stuffing",
 		"tags" : 
 		[
-			"Safe",
+			"Side",
+			"Vegetarian",
+			"Comfort"
+		]
+	},
+	{
+		"ingredients" : 
+		[
+			{
+				"name" : "Black Beans",
+				"quantity" : "2 cans"
+			},
+			{
+				"name" : "Olive Oil",
+				"quantity" : "1 tbsp"
+			},
+			{
+				"name" : "Bell Pepper",
+				"quantity" : "1/2 pepper"
+			},
+			{
+				"name" : "Yellow Onion",
+				"quantity" : "1/2"
+			},
+			{
+				"name" : "Garlic",
+				"quantity" : "3 cloves"
+			},
+			{
+				"name" : "Ground Cumin",
+				"quantity" : "1.5 tsp"
+			},
+			{
+				"name" : "Chili Powder",
+				"quantity" : "1/2 tsp"
+			},
+			{
+				"name" : "Smoked Paprika",
+				"quantity" : "1/4 tsp"
+			},
+			{
+				"name" : "Bread Crumbs",
+				"quantity" : "1/2 cup"
+			},
+			{
+				"name" : "Feta Cheese",
+				"quantity" : "1/2 cup"
+			},
+			{
+				"name" : "Sweet Potato",
+				"quantity" : "1/3 cup"
+			},
+			{
+				"name" : "Worcestershire Sauce",
+				"quantity" : "1 tbsp"
+			},
+			{
+				"name" : "Ketchup",
+				"quantity" : "2 tbsp"
+			}
+		],
+		"instructions" : 
+		[
+			"Drain and rinse beans, then bake for 15 minutes at 325F, until slightly dried out",
+			"Combine olive oil, chopped pepper, chopped onion, and minced garlic in a skillet",
+			"Heat over medium heat until peppers and onions are soft, 5-6 minutes",
+			"Combine vegetable mixture, cumin, chili powder, garlic powder, smoked paprika, bread crumbs, cheese, mashed sweet potato, worcestershire, ketchup, and a pinch of salt and pepper into a large bowl",
+			"Mix well, then add beans and mash with a fork",
+			"Form patties from 1/3 cup of the mixture",
+			"Bake patties for 10 minutes on each side at 375F"
+		],
+		"name" : "Black Bean Burgers",
+		"tags" : 
+		[
 			"Dinner",
 			"Comfort"
 		]
