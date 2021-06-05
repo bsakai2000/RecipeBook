@@ -95,6 +95,10 @@ void write_recipes(const std::string &file_name, const std::vector<Recipe> &reci
 		// Get the recipe ingredients
 		Json::Value ingredients_tree(Json::arrayValue);
 		std::vector<Ingredient> ingredients = recipes[i].get_ingredients();
+
+		// Sort the recipe ingredients
+		std::sort(ingredients.begin(), ingredients.end());
+
 		for(size_t j = 0; j < ingredients.size(); ++j)
 		{
 			Json::Value ingredient(Json::objectValue);
@@ -115,6 +119,10 @@ void write_recipes(const std::string &file_name, const std::vector<Recipe> &reci
 		// Get the recipe tags
 		recipe["tags"] = Json::Value(Json::arrayValue);
 		std::vector<std::string> tags = recipes[i].get_tags();
+
+		// Sort the recipe tags
+		std::sort(tags.begin(), tags.end());
+
 		for(size_t j = 0; j < tags.size(); ++j)
 		{
 			recipe["tags"].append(tags[j]);
