@@ -180,6 +180,79 @@
 		"ingredients" : 
 		[
 			{
+				"name" : "Black Beans",
+				"quantity" : "2 cans"
+			},
+			{
+				"name" : "Olive Oil",
+				"quantity" : "1 tbsp"
+			},
+			{
+				"name" : "Bell Pepper",
+				"quantity" : "1/2 pepper"
+			},
+			{
+				"name" : "Yellow Onion",
+				"quantity" : "1/2"
+			},
+			{
+				"name" : "Garlic",
+				"quantity" : "3 cloves"
+			},
+			{
+				"name" : "Ground Cumin",
+				"quantity" : "1.5 tsp"
+			},
+			{
+				"name" : "Chili Powder",
+				"quantity" : "1/2 tsp"
+			},
+			{
+				"name" : "Smoked Paprika",
+				"quantity" : "1/4 tsp"
+			},
+			{
+				"name" : "Bread Crumbs",
+				"quantity" : "1/2 cup"
+			},
+			{
+				"name" : "Feta Cheese",
+				"quantity" : "1/2 cup"
+			},
+			{
+				"name" : "Sweet Potato",
+				"quantity" : "1/3 cup"
+			},
+			{
+				"name" : "Worcestershire Sauce",
+				"quantity" : "1 tbsp"
+			},
+			{
+				"name" : "Ketchup",
+				"quantity" : "2 tbsp"
+			}
+		],
+		"instructions" : 
+		[
+			"Drain and rinse beans, then bake for 15 minutes at 325F, until slightly dried out",
+			"Combine olive oil, chopped pepper, chopped onion, and minced garlic in a skillet",
+			"Heat over medium heat until peppers and onions are soft, 5-6 minutes",
+			"Combine vegetable mixture, cumin, chili powder, garlic powder, smoked paprika, bread crumbs, cheese, mashed sweet potato, worcestershire, ketchup, and a pinch of salt and pepper into a large bowl",
+			"Mix well, then add beans and mash with a fork",
+			"Form patties from 1/3 cup of the mixture",
+			"Bake patties for 10 minutes on each side at 375F"
+		],
+		"name" : "Black Bean Burgers",
+		"tags" : 
+		[
+			"Dinner",
+			"Comfort"
+		]
+	},
+	{
+		"ingredients" : 
+		[
+			{
 				"name" : "Olive Oil",
 				"quantity" : "1 tbsp; 1 tbsp"
 			},
@@ -627,6 +700,65 @@
 		[
 			"Dessert",
 			"Vegetarian"
+		]
+	},
+	{
+		"ingredients" : 
+		[
+			{
+				"name" : "Chickpeas",
+				"quantity" : "1 cup"
+			},
+			{
+				"name" : "Romaine Lettuce",
+				"quantity" : "1 small head"
+			},
+			{
+				"name" : "Celery",
+				"quantity" : "1 cup"
+			},
+			{
+				"name" : "Tomato",
+				"quantity" : "1 cup"
+			},
+			{
+				"name" : "Red Cabbage",
+				"quantity" : "1 cup"
+			},
+			{
+				"name" : "Cucumber",
+				"quantity" : "1 cup"
+			},
+			{
+				"name" : "Carrot",
+				"quantity" : "1 cup"
+			},
+			{
+				"name" : "Salt",
+				"quantity" : "1 pinch"
+			},
+			{
+				"name" : "Lemon Juice",
+				"quantity" : "1 tsp"
+			},
+			{
+				"name" : "Olive Oil",
+				"quantity" : "1 tbsp"
+			}
+		],
+		"instructions" : 
+		[
+			"Dice all vegetables (no need to peel)",
+			"Toss with salt, lemon juice, and oil"
+		],
+		"name" : "Chopped Salad",
+		"tags" : 
+		[
+			"Dinner",
+			"Safe",
+			"Vegan",
+			"Vegetarian",
+			"Safe"
 		]
 	},
 	{
@@ -1709,73 +1841,54 @@
 		"ingredients" : 
 		[
 			{
-				"name" : "Black Beans",
-				"quantity" : "2 cans"
+				"name" : "Red Lentil",
+				"quantity" : "1.5 cups"
 			},
 			{
-				"name" : "Olive Oil",
-				"quantity" : "1 tbsp"
+				"name" : "Vegetable Broth",
+				"quantity" : "3 cups"
 			},
 			{
-				"name" : "Bell Pepper",
-				"quantity" : "1/2 pepper"
+				"name" : "Tomato",
+				"quantity" : "2 cups"
 			},
 			{
-				"name" : "Yellow Onion",
-				"quantity" : "1/2"
-			},
-			{
-				"name" : "Garlic",
-				"quantity" : "3 cloves"
-			},
-			{
-				"name" : "Ground Cumin",
-				"quantity" : "1.5 tsp"
-			},
-			{
-				"name" : "Chili Powder",
-				"quantity" : "1/2 tsp"
-			},
-			{
-				"name" : "Smoked Paprika",
-				"quantity" : "1/4 tsp"
-			},
-			{
-				"name" : "Bread Crumbs",
+				"name" : "Onion",
 				"quantity" : "1/2 cup"
 			},
 			{
-				"name" : "Feta Cheese",
-				"quantity" : "1/2 cup"
+				"name" : "Salt",
+				"quantity" : "1 tsp"
 			},
 			{
-				"name" : "Sweet Potato",
-				"quantity" : "1/3 cup"
+				"name" : "Cayenne Pepper",
+				"quantity" : "2 pinches"
 			},
 			{
-				"name" : "Worcestershire Sauce",
-				"quantity" : "1 tbsp"
+				"name" : "Kale",
+				"quantity" : "1 cup"
 			},
 			{
-				"name" : "Ketchup",
-				"quantity" : "2 tbsp"
+				"name" : "Coconut Milk",
+				"quantity" : "13.5 oz"
 			}
 		],
 		"instructions" : 
 		[
-			"Drain and rinse beans, then bake for 15 minutes at 325F, until slightly dried out",
-			"Combine olive oil, chopped pepper, chopped onion, and minced garlic in a skillet",
-			"Heat over medium heat until peppers and onions are soft, 5-6 minutes",
-			"Combine vegetable mixture, cumin, chili powder, garlic powder, smoked paprika, bread crumbs, cheese, mashed sweet potato, worcestershire, ketchup, and a pinch of salt and pepper into a large bowl",
-			"Mix well, then add beans and mash with a fork",
-			"Form patties from 1/3 cup of the mixture",
-			"Bake patties for 10 minutes on each side at 375F"
+			"Dice the onions and tomatoes",
+			"De-stem kale, and chop into small strips",
+			"Add all ingredients but kale and coconut milk to a medium pot and bring to a boil",
+			"Reduce heat and simmer covered for 20-30 minutes, until lentils are soft",
+			"Remove from heat, add chopped kale and coconut milk"
 		],
-		"name" : "Black Bean Burgers",
+		"name" : "Lentil and Kale Soup",
 		"tags" : 
 		[
+			"Soup",
 			"Dinner",
-			"Comfort"
+			"Safe",
+			"Vegan",
+			"Vegetarian"
 		]
 	}
 ]
