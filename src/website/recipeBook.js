@@ -106,6 +106,20 @@ function print_recipe(text, name)
 			}
 			recipe_element.appendChild(tag_list);
 
+			// Create the notes list
+			var note_header = document.createElement("h4");
+			note_header.innerHTML = "Notes";
+			recipe_element.appendChild(note_header);
+
+			var note_div = document.createElement("div");
+			for(note of recipe.notes)
+			{
+				var note_paragraph = document.createElement("p");
+				note_paragraph.innerHTML = note;
+				note_div.appendChild(note_paragraph);
+			}
+			recipe_element.appendChild(note_div);
+
 			// Add this recipe to the global div
 			document.getElementById("recipes").appendChild(recipe_element);
 			break;

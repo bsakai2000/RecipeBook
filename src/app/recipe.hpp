@@ -10,13 +10,14 @@
 class Recipe
 {
 	public:
-		Recipe(const std::string &name, const std::vector<Ingredient> &ingredients, const std::vector<std::string> &tags, const std::vector<std::string> &instructions);
+		Recipe(const std::string &name, const std::vector<Ingredient> &ingredients, const std::vector<std::string> &tags, const std::vector<std::string> &instructions, const std::vector<std::string> &notes);
 		~Recipe();
 
 		std::string get_name() const;
 		std::vector<Ingredient> get_ingredients() const;
 		std::vector<std::string> get_tags() const;
 		std::vector<std::string> get_instructions() const;
+		std::vector<std::string> get_notes() const;
 
 		// Returns true if the recipe has this tag
 		bool has_tag(const std::string &tag) const;
@@ -35,6 +36,7 @@ class Recipe
 		std::vector<Ingredient> ingredients;
 		std::vector<std::string> tags;
 		std::vector<std::string> instructions;
+		std::vector<std::string> notes;
 };
 
 #endif

@@ -19,7 +19,7 @@ _recipeBook()
 					COMPREPLY=($(compgen -W "ingredients recipes tags" "${COMP_WORDS[2]}"))
 					;;
 				"recipe" )
-					COMPREPLY=($(compgen -W "all ingredients instructions" "${COMP_WORDS[2]}"))
+					COMPREPLY=($(compgen -W "all ingredients instructions notes" "${COMP_WORDS[2]}"))
 					;;
 				"search" )
 					COMPREPLY=($(compgen -W "ingredient tag" "${COMP_WORDS[2]}"))
@@ -33,7 +33,7 @@ _recipeBook()
 			case "${COMP_WORDS[1]}" in
 				"recipe" )
 					# If we're looking at a recipe, create our list from the list of recipes
-					if [[ $COMP_CWORD -eq 3 && "${COMP_WORDS[2]}" =~ ^(all|ingredients|instructions)$ ]]
+					if [[ $COMP_CWORD -eq 3 && "${COMP_WORDS[2]}" =~ ^(all|ingredients|instructions|notes)$ ]]
 					then
 						local IFS=$'\n'
 						wordlist="$($recipeBookPath list recipes)"

@@ -75,8 +75,16 @@ std::vector<Recipe> read_recipes(const std::string &file_name)
 			tags.push_back(tag_it->asString());
 		}
 
+		// Get the list of notes
+		const Json::Value recipe_notes = (*it)["notes"];
+		std::vector<std::string> notes;
+		for(Json::ValueConstIterator note_it = recipe_notes.begin(); note_it != recipe_notes.end(); ++note_it)
+		{
+			notes.push_back(note_it->asString());
+		}
+
 		// Create our Recipe and add it to the list
-		recipes.push_back(Recipe(recipe_name.asString(), ingredients, tags, instructions));
+		recipes.push_back(Recipe(recipe_name.asString(), ingredients, tags, instructions, notes));
 	}
 
 	return recipes;
@@ -126,6 +134,14 @@ void write_recipes(const std::string &file_name, const std::vector<Recipe> &reci
 		for(size_t j = 0; j < tags.size(); ++j)
 		{
 			recipe["tags"].append(tags[j]);
+		}
+
+		// Get the recipe notes
+		recipe["notes"] = Json::Value(Json::arrayValue);
+		std::vector<std::string> notes = recipes[i].get_notes();
+		for(size_t j = 0; j < notes.size(); ++j)
+		{
+			recipe["notes"].append(notes[j]);
 		}
 
 		// Add this recipe to the JSON tree

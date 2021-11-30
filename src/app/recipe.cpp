@@ -1,11 +1,12 @@
 #include "recipe.hpp"
 
-Recipe::Recipe(const std::string &name, const std::vector<Ingredient> &ingredients, const std::vector<std::string> &tags, const std::vector<std::string> &instructions)
+Recipe::Recipe(const std::string &name, const std::vector<Ingredient> &ingredients, const std::vector<std::string> &tags, const std::vector<std::string> &instructions, const std::vector<std::string> &notes)
 {
 	this->name = name;
 	this->ingredients = ingredients;
 	this->tags = tags;
 	this->instructions = instructions;
+	this->notes = notes;
 }
 
 Recipe::~Recipe()
@@ -30,6 +31,11 @@ std::vector<std::string> Recipe::get_tags() const
 std::vector<std::string> Recipe::get_instructions() const
 {
 	return this->instructions;
+}
+
+std::vector<std::string> Recipe::get_notes() const
+{
+	return this->notes;
 }
 
 bool Recipe::has_tag(const std::string &tag) const

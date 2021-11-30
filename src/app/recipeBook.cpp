@@ -118,8 +118,29 @@ Recipe add_recipe()
 		tags.push_back(tag);
 	}
 
+	// Ask for notes
+	printf("Please input notes one line at a time\n");
+	printf("Leave field empty to finish\n");
+	std::vector<std::string> notes;
+	while(1)
+	{
+		// Get the tag
+		printf("Note:\n");
+		std::string note;
+		getline(std::cin, note);
+
+		// If the tag is empty, stop collecting tags
+		if(note == "")
+		{
+			break;
+		}
+
+		// Add this tag to our list
+		notes.push_back(note);
+	}
+
 	// Create a recipe with the required qualities
-	return Recipe(recipe_name, ingredients, tags, steps);
+	return Recipe(recipe_name, ingredients, tags, steps, notes);
 }
 
 // Print usage information
@@ -128,7 +149,7 @@ void usage(char* filename)
 	fprintf(stderr, "Usage:\n");
 	fprintf(stderr, "%s add\n", filename);
 	fprintf(stderr, "%s list [ingredients|recipes|tags]\n", filename);
-	fprintf(stderr, "%s recipe [ingredients|instructions|all] recipename\n", filename);
+	fprintf(stderr, "%s recipe [ingredients|instructions|notes|all] recipename\n", filename);
 	fprintf(stderr, "%s search [tag|ingredient] term1 [term2 ...]\n", filename);
 }
 
@@ -284,7 +305,7 @@ int main(int argc, char* argv[])
 	else if(args[0] == "recipe")
 	{
 		// If this is a bad argument list, give up
-		if((args.size() < 3) || (args[1] != "all" && args[1] != "ingredients" && args[1] != "instructions"))
+		if((args.size() < 3) || (args[1] != "all" && args[1] != "ingredients" && args[1] != "instructions" && args[1] != "notes"))
 		{
 			usage(argv[0]);
 			return 1;
@@ -349,6 +370,22 @@ int main(int argc, char* argv[])
 			for(size_t i = 0; i < instructions.size(); ++i)
 			{
 				printf("%3zu. %s\n", i, instructions[i].c_str());
+			}
+		}
+
+		// Target "all" requires labelling sections
+		if(args[1] == "all")
+		{
+			printf("\nNotes:\n");
+		}
+
+		if(args[1] == "notes" || args[1] == "all")
+		{
+			// Print each instruction
+			std::vector<std::string> notes = recipe->get_notes();
+			for(size_t i = 0; i < notes.size(); ++i)
+			{
+				printf("%s\n", notes[i].c_str());
 			}
 		}
 	}
