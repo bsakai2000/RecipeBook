@@ -45,6 +45,7 @@
 			"Bake for 40 minutes at 350F"
 		],
 		"name" : "Apple Crisp",
+		"notes" : [],
 		"tags" : 
 		[
 			"Dessert",
@@ -110,6 +111,7 @@
 			"Top with cabbage and serve"
 		],
 		"name" : "Baked Chicken Chalupas",
+		"notes" : [],
 		"tags" : 
 		[
 			"Dinner",
@@ -168,6 +170,7 @@
 			"Place biscuits on a greased baking sheet and bake at 425F for 15-18 minutes"
 		],
 		"name" : "Biscuits and Gravy",
+		"notes" : [],
 		"tags" : 
 		[
 			"Comfort",
@@ -243,6 +246,7 @@
 			"Bake patties for 10 minutes on each side at 375F"
 		],
 		"name" : "Black Bean Burgers",
+		"notes" : [],
 		"tags" : 
 		[
 			"Comfort",
@@ -315,6 +319,7 @@
 			"Remove from heat, stir in sesame oil, and garnish with green onions and sesame seeds"
 		],
 		"name" : "Broccoli Chicken Stir Fry",
+		"notes" : [],
 		"tags" : 
 		[
 			"Asian",
@@ -352,6 +357,7 @@
 			"Serve over lettuce with croutons"
 		],
 		"name" : "Caesar Salad Dressing",
+		"notes" : [],
 		"tags" : 
 		[
 			"Safe",
@@ -423,6 +429,7 @@
 			"Skim fat, then serve with spaghetti"
 		],
 		"name" : "Cajun Chicken and Spaghetti",
+		"notes" : [],
 		"tags" : 
 		[
 			"Comfort",
@@ -476,6 +483,7 @@
 			"Remove donuts when they have risen and are golden brown, and place on paper towel to absorb excess oil"
 		],
 		"name" : "Cake Donuts",
+		"notes" : [],
 		"tags" : 
 		[
 			"Dessert",
@@ -524,6 +532,7 @@
 			"Brush salmon with olive oil, season with salt and pepper, and bake at 450F until cooked through, about 12 minutes"
 		],
 		"name" : "Cherry Tomato Salmon",
+		"notes" : [],
 		"tags" : 
 		[
 			"Dinner",
@@ -587,6 +596,7 @@
 			"Garnish with sesame seeds and green onions"
 		],
 		"name" : "Chicken Teriyaki",
+		"notes" : [],
 		"tags" : 
 		[
 			"Asian",
@@ -637,6 +647,7 @@
 			"Add chicken to skillet and heat until warm"
 		],
 		"name" : "Chipotle Gravy Chicken",
+		"notes" : [],
 		"tags" : 
 		[
 			"Comfort",
@@ -696,6 +707,7 @@
 			"Form dough into balls and bake at 375F for 10-12 minutes"
 		],
 		"name" : "Chocolate Chip Cookies",
+		"notes" : [],
 		"tags" : 
 		[
 			"Dessert",
@@ -752,6 +764,7 @@
 			"Toss with salt, lemon juice, and oil"
 		],
 		"name" : "Chopped Salad",
+		"notes" : [],
 		"tags" : 
 		[
 			"Dinner",
@@ -808,6 +821,7 @@
 			"Stir in peas, shredded mint, and toasted pine nuts"
 		],
 		"name" : "Couscous with Peas and Mint",
+		"notes" : [],
 		"tags" : 
 		[
 			"Comfort",
@@ -857,6 +871,7 @@
 			"Toss noodles and sauce, garnish with green onions"
 		],
 		"name" : "Dragon Noodles",
+		"notes" : [],
 		"tags" : 
 		[
 			"Asian",
@@ -923,6 +938,7 @@
 			"Pour sauce over chicken mixture, and simmer until sauce thickens"
 		],
 		"name" : "Garlic Chicken Stir Fry",
+		"notes" : [],
 		"tags" : 
 		[
 			"Asian",
@@ -956,6 +972,7 @@
 			"Roast at 450F until edges are crispy, about 20 minutes"
 		],
 		"name" : "Garlic Roasted Broccoli",
+		"notes" : [],
 		"tags" : 
 		[
 			"Safe",
@@ -1013,17 +1030,17 @@
 			"Combine chicken and sauce, and add red peppers to taste"
 		],
 		"name" : "Honey Sriracha Chicken",
+		"notes" : 
+		[
+			"I usually leave out the white sugar and use the minimum honey",
+			"Coating chicken in cornstarch to make it crisp up is fun when it works but I can't often get it to work without a ton of oil"
+		],
 		"tags" : 
 		[
 			"Asian",
 			"Dinner",
 			"Safe",
 			"Spicy"
-		],
-		"notes" :
-		[
-			"I usually leave out the white sugar and use the minimum honey",
-			"Coating chicken in cornstarch to make it crisp up is fun when it works but I can't often get it to work without a ton of oil"
 		]
 	},
 	{
@@ -1070,6 +1087,7 @@
 			"Bake for 25 more minutes at 350F, careful not to let the topping brown"
 		],
 		"name" : "Lemon Bars",
+		"notes" : [],
 		"tags" : 
 		[
 			"Dessert",
@@ -1121,6 +1139,7 @@
 			"Garnish with 1 tbsp parsley"
 		],
 		"name" : "Lemon Butter Garlic Salmon",
+		"notes" : [],
 		"tags" : 
 		[
 			"Dinner",
@@ -1152,6 +1171,7 @@
 			"Chill"
 		],
 		"name" : "Lemonade",
+		"notes" : [],
 		"tags" : 
 		[
 			"Drink",
@@ -1205,6 +1225,7 @@
 			"Remove from heat, add chopped kale and coconut milk"
 		],
 		"name" : "Lentil and Kale Soup",
+		"notes" : [],
 		"tags" : 
 		[
 			"Dinner",
@@ -1276,6 +1297,7 @@
 			"Serve mixture in a leaf of butter lettuce"
 		],
 		"name" : "Lettuce Wraps",
+		"notes" : [],
 		"tags" : 
 		[
 			"Asian",
@@ -1317,6 +1339,7 @@
 			"Pour into greased pan and let cool in refrigerator"
 		],
 		"name" : "Marshmallow Fudge",
+		"notes" : [],
 		"tags" : 
 		[
 			"Dessert",
@@ -1373,6 +1396,7 @@
 			"Bake chicken crumb side up for 40 minutes at 350F, then raise heat to 400F for another 10 minutes"
 		],
 		"name" : "Mustard Roasted Chicken",
+		"notes" : [],
 		"tags" : 
 		[
 			"Comfort",
@@ -1398,6 +1422,7 @@
 			"Cook hot dogs with spaghetti per directions on spaghetti package"
 		],
 		"name" : "Noodle Weenie Dogs",
+		"notes" : [],
 		"tags" : 
 		[
 			"Comfort",
@@ -1454,6 +1479,7 @@
 			"Add sauce to chicken and simmer until hot, about 2 minutes"
 		],
 		"name" : "Orange Chicken",
+		"notes" : [],
 		"tags" : 
 		[
 			"Asian",
@@ -1505,6 +1531,7 @@
 			"Roast on a baking sheet for 30-35 minutes at 425F"
 		],
 		"name" : "Oven Roasted Potatoes",
+		"notes" : [],
 		"tags" : 
 		[
 			"Safe",
@@ -1592,6 +1619,7 @@
 			"Shred chicken, toss with salad and dressing, and serve cold"
 		],
 		"name" : "Peanut Chicken Salad",
+		"notes" : [],
 		"tags" : 
 		[
 			"Asian",
@@ -1636,6 +1664,7 @@
 			"Uncover salmon and broil until the top of the salmon becomes golden brown, about 3 minutes"
 		],
 		"name" : "Rosemary Lemon Salmon",
+		"notes" : [],
 		"tags" : 
 		[
 			"Dinner",
@@ -1700,6 +1729,7 @@
 			"Each sandwich should be assembled from a ciabatta roll, a salmon filet, 2 slices of bacon, 2 tbsp of guacamole, arugula, and a sprinkling of salt"
 		],
 		"name" : "Salmon and Guacamole Sandwiches",
+		"notes" : [],
 		"tags" : 
 		[
 			"Comfort",
@@ -1734,6 +1764,7 @@
 			"Remove from heat and stir in powdered sugar until desired consistency is achieved"
 		],
 		"name" : "Silky Chocolate Frosting",
+		"notes" : [],
 		"tags" : 
 		[
 			"Dessert",
@@ -1774,6 +1805,7 @@
 			"Bake at 400F until cooked through, about 20 minutes"
 		],
 		"name" : "Spicy Chicken Nuggets",
+		"notes" : [],
 		"tags" : 
 		[
 			"Comfort",
@@ -1829,6 +1861,7 @@
 			"Return to heat and bring to a boil"
 		],
 		"name" : "Split Pea Soup",
+		"notes" : [],
 		"tags" : 
 		[
 			"Comfort",
@@ -1891,6 +1924,7 @@
 			"Cover with foil and bake for 1 hr at 350F, uncovering for the last 10 minutes"
 		],
 		"name" : "Stuffing",
+		"notes" : [],
 		"tags" : 
 		[
 			"Comfort",
